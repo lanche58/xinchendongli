@@ -1,3 +1,50 @@
 @charset "utf-8";
 @import "color";
 @import "repeat";
+.header{
+    background: $mc1; height: 80px; line-height: 24px; color: #fff;
+    a{ color: #fff; }
+    .logo{ float: left; width: 164px; margin-top: 18px; }
+    .nav{ float: left; margin-left: 12%;
+        > li{ float: left;
+            > a{ display: block; position: relative; padding: 28px 20px; font-size: 15px; font-weight: bold; 
+                &:before{ @include hl($mc2,4px); }
+                &:hover,
+                &.act{
+                    &:before{ @include hlw; }
+                }
+            } 
+        }
+    }
+    .lang{ float: right; padding: 28px 0; 
+        a{ float: left; font-size: 12px; text-transform: uppercase; color: $fc3; 
+            + a{ margin-left: 25px; }
+            &.act{ color: $mc2; }
+        }
+    }
+}
+@media screen and (min-width:1025px) {
+    .header .lang a:hover{ color: $mc2; }
+}
+.mtop{ height: 80px; }
+.banner{
+    .txts{ position: absolute; top: 32%; right: 6%; width: 460px; color: #000; 
+        &.white{ color: #fff; }
+        .ti1{ font-weight: bold; font-size: 50px; }
+        .ti2{ margin-top: 5px; font-size: 24px; line-height: 1.25; }
+        .more{ margin-top: 30px; }
+    }
+    .slick-dots{ bottom: 30px; 
+        li{ border: 1px solid #fff; background: none; }
+        .slick-active{ background: #fff; }
+    }
+}
+.ix-more{
+    @include di; width: 130px; height: 36px; background: $mc3; text-align: center; line-height: 36px; white-space: nowrap; color: #fff;
+    i{ display: inline-block; vertical-align: middle; }
+    .sj{ border-left-width: 4px; margin-left: 20px; }
+}
+@media screen and (min-width:1025px) {
+    .ix-more:hover{ background: $mc2; }
+    .banner .slick-dots li:hover{ background: #fff; } 
+}
