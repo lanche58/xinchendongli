@@ -35,10 +35,7 @@ a{color:#666}
 .header{position:fixed;z-index:1010;top:0;left:0;right:0;background:#fff;box-shadow:0 0 5px rgba(0,0,0,.5)}
 .menuBox{position:fixed;z-index:1009;top:0;right:0;width:100%;height:100%;background:#fff;overflow:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;display:none}
 .menuBlack{position:fixed;z-index:1008;top:0;bottom:0;right:0;left:0;background:url(../images/black5.png);display:none}
-.container{min-height:600px;overflow:hidden}
-@media screen and (max-width:1366px){
-.container{min-height:300px}
-}
+.container{min-height:300px;overflow:hidden}
 .pw{width:1200px;margin:0 auto}
 @media screen and (max-width:1366px){
 .pw{width:1000px}
@@ -742,3 +739,61 @@ a.pswp__share--download:hover{background:#ddd}
 .ix-more:hover{background:#ab4133}
 .banner .slick-dots li:hover{background:#fff}
 }
+.footer{background:#4d4d4d;padding:16px 0;font-size:12px;line-height:24px;color:#fff}
+.footer a{color:#fff}
+.footer .f-ctas{float:left}
+.footer .f-cop{float:right}
+.f-ctas{overflow:hidden}
+.f-ctas p{float:left;font-size:14px}
+.f-ctas p+p{margin-left:40px}
+.f-ctas i{display:inline-block;vertical-align:bottom}
+.f-ctas .icon{width:22px;height:22px;margin:0 8px 1px 0;border-radius:3px;background:#fff;color:#4d4d4d;text-align:center;line-height:22px}
+.f-ctas .num{margin-left:8px;font-weight:700;font-size:18px}
+@media screen and (min-width:1025px){
+.footer a:not(.na):hover{color:#ab4133}
+}
+.container{background-repeat:no-repeat;background-position:right bottom;background-image:url(../images/bg.jpg)}
+.ix-news{float:left;width:47%}
+.ix-ti{border-bottom:2px solid #ccc}
+.ix-ti .ti{display:inline-block;vertical-align:bottom;position:relative;padding:0 15px 10px 0;font-weight:700;font-size:20px;color:#333}
+.ix-ti .ti:before{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:#ab4133}
+.in-s{display:block;overflow:hidden}
+.in-s .pic{float:left;width:185px;height:115px;margin-right:25px}
+.in-s .txts{overflow:hidden}
+.in-s .nowti{font-weight:700;font-size:16px;color:#333;-webkit-transition:.3s;-moz-transition:.3s;transition:.3s}
+.in-s .tx{margin-top:4px;height:48px}
+.in-s .in-date{margin-top:20px}
+.in-date{line-height:20px;font-size:12px}
+.in-date i{display:inline-block;vertical-align:bottom;margin-right:5px;font-size:12px}
+@media screen and (min-width:1025px){
+.in-s:hover .nowti{color:#ab4133}
+}
+.in-x{line-height:34px}
+.in-x a{display:block;overflow:hidden}
+.in-x .date{float:right;width:80px;text-align:right;font-size:12px;color:#999;-webkit-transition:.3s;-moz-transition:.3s;transition:.3s}
+.in-x .nowti{line-height:34px}
+@media screen and (min-width:1025px){
+.in-x a:hover,.in-x a:hover .date{color:#ab4133}
+}
+.in-list{overflow:visible}
+.in-list .item{padding:35px 0}
+.in-list .in-x{border-top:1px dashed #ccc;margin-top:35px;padding-top:25px}
+.in-arrow .slick-arrow{top:auto;bottom:100%;margin:0 0 10px 0;width:24px;height:24px;border:1px solid #ccc;background:0 0;text-align:center;line-height:24px;font-size:12px;font-weight:700;font-family:iconfont!important}
+.in-arrow .slick-prev{left:auto;right:30px}
+.in-arrow .slick-prev:before{content:"\e65d"}
+.in-arrow .slick-next:before{content:"\e65e"}
+@media screen and (min-width:1025px){
+.in-arrow .slick-arrow:hover{background:#ab4133;border-color:#ab4133;color:#fff}
+}
+.ix-pro{float:right;width:46%}
+.ip-list{margin-left:-28px}
+.ip-list li{width:33.33%;float:left;margin-bottom:15px}
+.ip-list a{display:block;margin-left:28px}
+.ip-list .pai{padding-bottom:69.69%}
+.ip-list .nowti{padding:0 5%;margin-top:10px;height:20px;line-height:20px;text-transform:uppercase;text-align:center}
+@media screen and (min-width:1025px){
+.ip-list a:hover{color:#ab4133}
+}
+.ip-sli{overflow:visible}
+.ip-sli .item{padding-top:35px}
+.ix1{padding:40px 0 35px 0}
