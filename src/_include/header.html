@@ -1,14 +1,52 @@
 <div class="header">
+    <div class="pull-nav-bg"></div>
     <div class="pw clearfix">
         <a href="index.html" class="logo"><img src="images/logo.png" /></a>
         <ul class="nav">
-            <li><a href="index.html" @@if (context.index==='act') { class="act" }>首页</a></li>
-            <li><a href="about.html" @@if (context.about==='act') { class="act" }>关于公司</a></li>
-            <li><a href="news.html" @@if (context.news==='act') { class="act" }>新闻中心</a></li>
-            <li><a href="pro.html" @@if (context.pro==='act') { class="act" }>产品介绍</a></li>
-            <li><a href="ser.html" @@if (context.ser==='act') { class="act" }>客户服务</a></li>
-            <li><a href="job.html" @@if (context.job==='act') { class="act" }>人才招聘</a></li>
-            <li><a href="inv.html" @@if (context.inv==='act') { class="act" }>投资者关系</a></li>
+            <li><a href="index.html" @@if (context.index==='act') { class="act" }>首页<p class="sj sj-b"></p></a></li>
+            <li><a href="about.html" @@if (context.about==='act') { class="act" }>关于公司<p class="sj sj-b"></p></a>
+                <div class="pull-nav">
+                    <a href="about.html">公司简介<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="about1.html">企业文化<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="about2.html">光辉历程<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="about3.html">研发实力<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                </div>
+            </li>
+            <li><a href="news.html" @@if (context.news==='act') { class="act" }>新闻中心<p class="sj sj-b"></p></a></li>
+            <li><a href="pro.html" @@if (context.pro==='act') { class="act" }>产品介绍<p class="sj sj-b"></p></a>
+                <div class="pull-nav">
+                    <a href="pro.html?#pro1">CE发动机<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="pro.html?#pro2">A平台产品零部件<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="pro.html?#pro3">防伪认证<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                </div>
+            </li>
+            <li><a href="ser.html" @@if (context.ser==='act') { class="act" }>客户服务<p class="sj sj-b"></p></a>
+                <div class="pull-nav">
+                    <a href="ser.html">服务查询<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="cta.html">联系我们<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                </div>
+            </li>
+            <li><a href="job.html" @@if (context.job==='act') { class="act" }>人才招聘<p class="sj sj-b"></p></a>
+                <div class="pull-nav">
+                    <a href="job.html">人力资源信息<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="job1.html">社会招聘<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="job2.html">校园招聘<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                </div>
+            </li>
+            <li class="inv"><a href="inv.html" @@if (context.inv==='act') { class="act" }>投资者关系<p class="sj sj-b"></p></a>
+                <div class="pull-nav">
+                    <a href="inv.html">公司资料<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv1.html">组织章程大纲及公司细则<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv2.html">与股东的关系<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv3.html">财务报告<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv4.html">公告<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv5.html">通函<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv6.html">委任代表表格<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv7.html">股权结构<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv8.html">招股文件<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                    <a href="inv9.html">翌日披露报表<i class="icon iconfont icon-xiangyoujiantou"></i></a>
+                </div>
+            </li>
         </ul>
         <div class="lang">
             <a href="#" class="act">中文</a>
@@ -24,6 +62,7 @@
 </div>
 <!-- menu-handler -->
 <div class="menuBox">
+    <div class="lang"><a href="#" class="act">中</a><a href="#">EN</a></div>
     <dl class="navMobile">
         <dd><a href="index.html">首页</a></dd>
         <dd><a href="about.html">关于皓源</a>

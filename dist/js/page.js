@@ -68,6 +68,32 @@ $(window).resize(function () {
 });
 
 $(function () {
+
+    $('.nav>li>a').mouseenter(function() {
+        if (isMobile) { return; }
+        var $this = $(this),
+            $next = $this.next(),
+            len = $next.size(),
+            $bg = $('.pull-nav-bg');
+
+        $('.nav>li>a').removeClass('cur');
+        $('.pull-nav').removeClass('show').hide();
+
+        if (len) {
+            $this.addClass('cur');
+            $next.show(function() {
+                $next.addClass('show');
+            });
+            $bg.stop().fadeIn();
+        } else {
+            $bg.stop().fadeOut();
+        }
+    });
+    $('.header').mouseleave(function() {
+        $('.nav>li>a').removeClass('cur');
+        $('.pull-nav').removeClass('show').hide();
+        $('.pull-nav-bg').stop().fadeOut();
+    });
 	
 	
 
@@ -114,13 +140,13 @@ $(function () {
         if (navItem == 0) {
             $('html').addClass('open');
             $('.menuBlack').stop().fadeIn(600);
-            $(this).addClass('active');
+            $(this).addClass('active').stop(false,false).animate({right:w+"px"});
             $menuBox.show().stop(false,false).animate({right:0});
             navItem = 1;
         } else {
             $('html').removeClass('open');
             $('.menuBlack').stop().fadeOut(600);
-            $(this).removeClass('active');
+            $(this).removeClass('active').stop(false,false).animate({right:0});
             $menuBox.stop(false,false).animate({right:-w+"px"},function(){
                 $(this).hide();
             });
@@ -130,7 +156,7 @@ $(function () {
     $('.menuBlack').bind(_click, function () {
         var w = $menuBox.width();
         $('html').removeClass('open');
-        $menuBtn.removeClass('active');
+        $menuBtn.removeClass('active').stop(false,false).animate({right:0});
         $('.menuBlack').stop().fadeOut(600);
         $menuBox.stop(false,false).animate({right:-w+"px"},function(){
             $(this).hide();

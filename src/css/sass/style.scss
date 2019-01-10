@@ -3,18 +3,25 @@
 @import "repeat";
 .header{
     background: $mc1; height: 80px; line-height: 24px; color: #fff;
+    > .pw{ position: relative; }
     a{ color: #fff; }
     .logo{ float: left; width: 164px; margin-top: 18px; }
     .nav{ float: left; margin-left: 12%;
-        > li{ float: left;
+        > li{ float: left; position: relative;
             > a{ display: block; position: relative; padding: 28px 20px; font-size: 15px; font-weight: bold; 
                 &:before{ @include hl($mc2,4px); }
+                &.cur,
                 &:hover,
                 &.act{
                     &:before{ @include hlw; }
                 }
+                &.cur{
+                    .sj-b{ transform: none; @include show; transition-delay: 300ms; }
+                }
             } 
         }
+        .sj-b{ position: absolute; left: 50%; top: 100%; margin-left: -8px; border-left-width: 8px; border-right-width: 8px; border-top-width: 10px; color: $mc2; transform: translateY(-20px); @include hide; @include mt6; }
+        .inv .pull-nav{ left: auto; right: -205px; }
     }
     .lang{ float: right; padding: 28px 0; 
         a{ float: left; font-size: 12px; text-transform: uppercase; color: $fc3; 
@@ -23,8 +30,17 @@
         }
     }
 }
+.pull-nav-bg{ @include plr; top: 100%; height: 80px; background: $mc4; display: none; }
+.pull-nav{ position: absolute; left: 0; padding-top: 28px; white-space: nowrap; letter-spacing: -6px; display: none; transform: translateX(40px); @include hide; @include mt6;
+    &.show{ transform: none; @include show; }
+    a{ @include di; position: relative; letter-spacing: 0; 
+        + a{ position: relative; margin-left: 50px; }
+    }
+    .icon{ display: block; position: absolute; top: 0; right: 100%; margin-right: 10px; font-weight: bold; font-size: 12px; color: $mc2; }
+}
 @media screen and (min-width:1025px) {
     .header .lang a:hover{ color: $mc2; }
+    .pull-nav a:hover{ color: $mc2; }
 }
 .mtop{ height: 80px; }
 .banner{
@@ -38,6 +54,7 @@
         li{ border: 1px solid #fff; background: none; }
         .slick-active{ background: #fff; }
     }
+    .pic2 .m{ display: none; }
 }
 .ix-more{
     @include di; width: 130px; height: 36px; background: $mc3; text-align: center; line-height: 36px; white-space: nowrap; color: #fff;
@@ -135,3 +152,105 @@
     .item{ padding-top: 35px; }
 }
 .ix1{ padding: 40px 0 35px 0; }
+.menu-handler{
+    background: $mc2;
+    .burger{ background: #fff; }
+}
+.menuBox{
+    z-index: 1011; width: 320px; right: -320px; background: $hc3;
+    .lang{ height: 60px; padding: 0 25px; overflow: hidden; 
+        a{ float: left; margin-top: 22px; line-height: 1; font-size: 16px; 
+            &.act{ color: $mc2; }
+            + a{ border-left: 1px solid $hc1; padding-left: 10px; margin-left: 10px; }
+        }
+    }
+}
+.navMobile{
+    a{ display: block; line-height: 1.4; }
+    dd > a{ padding: 16px 25px; font-size: 18px; 
+        &.act{ background: $mc2; color: #fff; }
+    }
+    .mtv{ background: #fff; padding: 10px 0 20px 0; display: none;
+        > a{ padding: 8px 35px; font-size: 16px; }
+    }
+}
+.page-t{ background: $hc3; padding: 15px 0 70px 0;
+    .page-ti{ margin-top: 50px; }
+    .ab-tx{ margin-top: 60px; }
+}
+.bread-nav{
+    color: $mc4; line-height: 24px;
+    a{ color: $mc4; 
+        &.act{ color: $mc2; }
+    }
+    .icon{ @include di; font-size: 18px; margin-right: 10px; }
+}
+@media screen and (min-width:1025px) {
+    .bread-nav a:hover{ color: $mc2; }
+}
+.page-ti{
+    .ti{ font-size: 32px; color: $fc1; }
+}
+.ab-tx{ border-left: 1px solid $hc1; padding-left: 20px; }
+.ab1{
+    padding-bottom: 100px;
+    .pic{ margin-bottom: 50px; }
+    .subcomp-list{ margin-top: 70px; }
+}
+.subcomp-list{
+    li + li{ margin-top: 5px; }
+    li.act .t{ background: $mc1; color: #fff; }
+    .t{ background: $hc2; padding: 20px 30px; line-height: 24px; overflow: hidden; cursor: pointer; @include mt3; }
+    .name{ line-height: 24px; font-size: 18px; overflow: hidden; }
+    .more{ float: right; width: 80px; text-align: right; }
+    .b{ border: 1px solid $hc1; border-top: none; padding: 30px 40px 40px 40px; display: none; }
+    .pic2{ float: right; margin-left: 40px; }
+}
+@media screen and (min-width:1025px) {
+    .subcomp-list li:hover .t{ background: $mc1; color: #fff; }
+}
+.cul-map{
+    width: 820px; margin: 0 auto; max-width: 90%;
+    .t{ position: relative; height: 111px; padding-top: 30px; margin-bottom: 10px; background: url(../images/bg1.jpg) no-repeat center bottom; @include bs; text-align: center; 
+        .cm-ti{ bottom: 0; }
+    }
+    .cont{ margin-left: 125px; }
+    .logo{
+        line-height: 1;
+        img{ vertical-align: bottom; max-width: 100%; }
+    }
+    .ti{ margin-top: 8px; font-size: 20px; color: $fc1; }
+    .c, .b{ position: relative; padding: 0 15px; background: $mc5; color: #fff; 
+        a{ color: #fff; }
+        .cm-ti{ border-top: 2px solid $mc5;  }
+    }
+    .cm-ti{ position: absolute; right: 100%; width: 125px; white-space: nowrap; text-align: left; }
+    .b{
+        padding-top: 10px; padding-bottom: 10px; margin-top: 5px; text-align: center;
+        .cm-ti{ top: 0; padding-top: 8px; }
+    }
+    .cm-tx{ font-size: 16px; line-height: 1.4; }
+    .c{ padding-top: 20px; padding-bottom: 20px; 
+        .ti1{ top: 0; padding-top: 37px; }
+        .ti2{ top: 100px; padding-top: 23px; }
+    }
+}
+.cm-ti{ font-size: 16px; line-height: 1.4; font-weight: bold; color: $fc1; }
+.cm-list{
+    margin-left: -5px;
+    li{ width: 25%; float: left; }
+    .ma{ margin-left: 5px; padding-top: 15px; }
+    .nowti{ line-height: 30px; font-size: 18px; }
+    .ico{ float: left; width: 30px; height: 30px; background-image: url(../images/ico1.png); background-position: 0 top; }
+    .cm2 .ico{ background-position: 0 -30px; }
+    .cm3 .ico{ background-position: 0 -60px; }
+    .cm4 .ico{ background-position: 0 bottom; }
+    .freeTx{ background: #fff; margin-top: 35px; height: 200px; @include bs; padding: 25px 15px; color: $fc2; font-size: 12px; @include mt4;
+        a{ color: $fc2; }
+    }
+}
+@media screen and (min-width:1025px) {
+    .cm-list .ma:hover .freeTx{ transform: translateY(-10px); }
+    .cm-list .ma:hover .ico{ animation: logoShow .5s 1; }
+}
+.ab2{ padding: 70px 0 100px 0; }

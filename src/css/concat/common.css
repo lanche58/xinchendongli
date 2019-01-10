@@ -227,7 +227,7 @@ a {
 /* winxin end */
 
 /* menuBtn <div class="menu-handler"><span class="burger burger-1"></span><span class="burger burger-2"></span><span class="burger burger-3"></span></div> */
-.menu-handler { position: fixed; z-index: 1012; right: 0; top: 0; width: 60px; height: 60px; overflow: hidden; cursor: pointer; transition: 300ms; display: none; }
+.menu-handler { position: fixed; z-index: 1012; right: 0; top: 0; width: 60px; height: 60px; overflow: hidden; cursor: pointer; transition: background 300ms; display: none; }
 .menu-handler .burger { display: block; position: absolute; top: 21px; left: 50%; margin-left: -16px; width: 32px; height: 4px; background: #000; transition: 800ms; }
 .menu-handler .burger-2 { top: 28px; }
 .menu-handler .burger-3 { top: 35px; }
