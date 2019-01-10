@@ -254,3 +254,50 @@
     .cm-list .ma:hover .ico{ animation: logoShow .5s 1; }
 }
 .ab2{ padding: 70px 0 100px 0; }
+.spec-news{
+    display: block; padding: 15px 40px 15px 25px; border: 1px solid $hc1;
+    .pic{ float: left; width: 44%; height: 298px; margin-right: 40px; }
+    .txts{ overflow: hidden; padding-top: 10px; }
+    .nowti{ margin-bottom: 7px; font-size: 24px; color: $fc1; @include mt3; }
+    .tx{ margin-top: 30px; height: 72px; }
+    .more{ margin-top: 70px; line-height: 1; }
+}
+.nw-more{
+    @include di; width: 112px; height: 28px; border: 1px solid $fc2; line-height: 28px; white-space: nowrap; text-align: center; font-size: 12px; @include mt3;
+    .icon{ @include di; margin-left: 20px; font-size: 12px; font-weight: bold; }
+}
+@media screen and (min-width:1025px) {
+    .nw-more:hover{ background: $mc2; border-color: $mc2; color: #fff; }
+    .spec-news:hover .nowti{ color: $mc2; }
+}
+.news-list{
+    a{ display: block; position: relative; padding: 0 10px; overflow: hidden; line-height: 40px; 
+        &:before{ @include hv($hc3, 100%); }
+    }
+    .nowti{ line-height: 40px; 
+        i{ letter-spacing: -2px; }
+    }
+    .a2{ opacity: 0.7; margin-right: 15px; }
+    .date{ float: right; width: 80px; text-align: right; font-size: 12px; }
+    p{ position: relative; }
+}
+@media screen and (min-width:1025px) {
+    .news-list a:hover:before{ @include hvh; }
+    .news-list a:hover{ color: $mc2; }
+}
+.nw1{
+    padding: 70px 0 100px 0;
+    .news-list{ margin-top: 60px; border-bottom: 1px dashed $hc1; }
+    .pager{ margin-top: 60px; }
+}
+.pager{
+    span{ display: inline-block; vertical-align: middle; letter-spacing: 0; line-height: 34px; font-size: 20px; }
+    .cnum, .anum{ font-style: italic; }
+    .cnum{ color: $mc2; }
+    a{ width: 32px; height: 32px; border: 1px solid $fc2; font-size: 20px; line-height: 32px; }
+    .icon-xiangzuojiantou{ margin-right: 20px; }
+    .icon-xiangyoujiantou{ margin-left: 20px; }
+}
+@media screen and (min-width:1025px) {
+    .pager a:hover{ color: #fff; background: $mc2; border-color: $mc2; }
+}

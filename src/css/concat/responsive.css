@@ -14,6 +14,10 @@
     .f-ctas p+p { margin-left: 30px; }
     .ix-pro { width: 47%; }
     .subcomp-list .t, .subcomp-list .b{ padding-left: 5%; padding-right: 5%; }
+    .spec-news .pic { height: 253px; }
+    .spec-news .txts{ padding-top: 0; }
+    .spec-news .tx{ margin-top: 20px; }
+    .spec-news .more{ margin-top: 50px; }
 } /* 1366 */
 @media screen and (max-width:1201px) {
     .banner .txts .ti1{ font-size: 40px; }
@@ -31,6 +35,11 @@
     .footer .f-cop{ padding-top: 10px; }
     .ip-list { margin-left: -20px; }
     .ip-list a { margin-left: 20px; }
+    .spec-news{ padding-left: 15px; padding-right: 30px; }
+    .spec-news .pic{ width: 386px; height: 238px; margin-right: 30px; }
+    .spec-news .more{ margin-top: 40px; }
+    .spec-news .nowti{ font-size: 22px; }
+    .news-list a{ padding: 0; }
 
 } /* 1024 */
 @media screen and (max-width:861px) {
@@ -51,6 +60,9 @@
     .subcomp-list .pic2{ width: 30%; margin-left: 5%; }
     .cul-map .cm-ti{ display: none; }
     .cul-map .cont { margin-left: 0; }
+    .spec-news .pic{ display: none; }
+    .spec-news{ padding: 30px 5% 40px 5%; }
+    .spec-news .nowti{ font-size: 24px; }
 } /* 861 */
 @media screen and (max-width:641px) {
     .banner .txts .ti1 { font-size: 26px; }
@@ -73,7 +85,9 @@
     .subcomp-list .t{ padding-top: 3.33vw; padding-bottom: 3.33vw; }
     .subcomp-list .name{ font-size: 16px; }
     .ab1{ padding-bottom: 70px; }
-    .ab2{ padding: 12vw 0 70px 0; }
+    .nw1, .ab2{ padding: 12vw 0 70px 0; }
+    .nw1 .pager, .nw1 .news-list{ margin-top: 10vw; }
+
 } /* 601 */
 @media screen and (max-width:481px) {
     .menuBox{ width: 220px; right: -220px; }
@@ -90,6 +104,13 @@
     .bread-nav .icon { font-size: 14px; margin-right: 5px; }
     .subcomp-list .name{ font-size: 14px; }
     .subcomp-list .more{ width: 40px; font-size: 12px; }
+    .news-list .a2 { margin-right: 10px; }
+    .spec-news .pic{ display: block; width: 100%; height: auto; float: none; margin: 0 0 5vw 0; }
+    .spec-news{ padding-top: 5%; padding-bottom: 30px; }
+    .spec-news .nowti{ font-size: 20px; }
+    .spec-news .more{ margin-top: 30px; }
+
+
     
 } /* 481 */
 @media screen and (max-width:361px) {} /* 361 */

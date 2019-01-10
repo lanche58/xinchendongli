@@ -87,7 +87,7 @@ a {
 	overflow: hidden;
 }
 /* pw */
-.pw { width: 1200px; margin: 0 auto; }
+.pw { width: 1150px; margin: 0 auto; }
 @media screen and (max-width:1366px) {
 	.pw { width: 1000px; }
 }
