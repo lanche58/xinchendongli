@@ -20,6 +20,13 @@
     .spec-news .more{ margin-top: 50px; }
     .recruit-list .t .r1 .nowti{ padding-left: 30px; }
     .recruit-list .b{ padding-left: 30px; padding-right: 30px; }
+    .honor-list .ma { margin-left: 40px; }
+    .honor-list{ margin-left: -40px; }
+    .his-list .pic{ height: 96px; }
+    .his-list .item1 { padding-top: 212px; }
+    .his-list:before{ top: 212px; }
+    .his-list .slick-arrow { top: 192px; }
+    .his-list { padding: 0 50px; }
 } /* 1366 */
 @media screen and (max-width:1201px) {
     .banner .txts .ti1{ font-size: 40px; }
@@ -46,7 +53,20 @@
     .job-mess-list .b, .job-mess-list .t{ padding-left: 5%; padding-right: 5%; }
     .job-mess-list .job-plus{ right: 5%; }
     .pro-table .tit{ padding-left: 25px; }
-
+    .sos-box{ margin: 0; transform: translateY(-50%); }
+    .honor-list .ma { margin-left: 30px; }
+    .honor-list{ margin-left: -30px; }
+    .his-list .dot, .his-list:before{ display: none; }
+    .his-list{ border-left: 2px solid #ccc; padding: 60px 0 0 0; overflow: visible; }
+    .his-list .tx{ height: auto; margin: 0; }
+    .his-list .pic{ width: 200px; max-width: 100%; height: auto; box-sizing: border-box; }
+    .his-list .date{ position: absolute; right: 100%; top: 0; width: 200px; height: auto; box-sizing: border-box; padding-left: 50px; line-height: 1; }
+    .his-list .his-cont { margin-left: 200px; }
+    .his-list .item .his-cont{ padding: 30px 0 0 0; }
+    .his-list .item{ padding: 0 0 60px 0; overflow: visible; }
+    .his-list .date:before, .his-list .date:after{ content: ""; position: absolute; top: 50%; background: #ccc; }
+    .his-list .date:before{ left: -6px; margin-top: -5px; border-radius: 100%; width: 10px; height: 10px; }
+    .his-list .date:after{ left: 0; margin-top: -1px; width: 40px; height: 2px; }
 } /* 1024 */
 @media screen and (max-width:861px) {
     .banner .txts .ti1 { font-size: 32px; }
@@ -79,6 +99,16 @@
     .pro-list .slick-prev { left: 15px; }
     .pro-table table{ width: 800px; }
     .tab-box{ overflow: hidden; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .rdi-list .nowti { line-height: 40px; font-size: 12px; }
+    .rd-arrow .slick-arrow { font-size: 24px; }
+    .rd-arrow .slick-prev{ left: 5px; }
+    .rd-arrow .slick-next{ right: 5px; }
+    .honor-list .nowti{ font-size: 12px; }
+    .honor-list .ma { margin-left: 20px; }
+    .honor-list{ margin-left: -20px; }
+    .honor-list a{ margin-bottom: 25px; }
+    .ab3{ padding-bottom: 75px; }
+    .ab3 .honor-list{ margin-top: 60px; }
 } /* 861 */
 @media screen and (max-width:641px) {
     .banner .txts .ti1 { font-size: 26px; }
@@ -132,6 +162,20 @@
     .pro-mess-list li+li { margin-left: 7.5vw; padding-left: 7.5vw; }
     .pro-tx .pd-ti { margin-bottom: 5vw; }
     .pro-tx .pro-table{ margin-top: 10vw; }
+    .sos-box .ch{ font-size: 24px; }
+    .sos-box .en{ font-size: 18px; }
+    .sos-box .tx1{ margin-top: 10vw; }
+    .sos-box .ch{ margin-top: 5vw; }
+    .rd-tx .rdi-list{ width: 100%; float: none; margin: 0 0 6.67vw 0; }
+    .rdi-list .nowti{ line-height: 50px; font-size: 14px; }
+    .ab3 .honor-list{ margin-top: 10vw; }
+    .ab3{ padding: 12vw 0 45px 0; }
+    .ab4{ padding: 12vw 0 70px 0; }
+    .his-list .item{ padding-bottom: 10vw; }
+    .his-list .item .his-cont{ padding-top: 5vw; }
+    .his-list{ padding-top: 10vw; }
+
+
 
 } /* 601 */
 @media screen and (max-width:481px) {
@@ -180,6 +224,14 @@
     .anti-fake .inp-b .lin:before { left: 5px; right: 5px; }
     .pro-mess-list span{ font-size: 16px; margin-bottom: 5px; }
     .pro-mess-list li{ font-size: 12px; }
+    .sos-box .ch{ font-size: 20px; }
+    .sos-box .en{ margin-top: 5px; font-size: 14px; }
+    .sos-box .fib{ margin-top: 5px; }
+    .honor-list a{ width: 50%; }
+    .his-list .date{ width: 120px; padding-left: 40px; font-size: 24px; }
+    .his-list .his-cont{ margin-left: 120px; }
+    .his-list .date:after { width: 30px; }
+
 
     
 
