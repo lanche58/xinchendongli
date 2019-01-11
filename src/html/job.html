@@ -1,0 +1,118 @@
+@@include('./top.html')
+</head>
+<body>
+@@include('./header.html',{
+    "job": "act"
+})
+<div class="page-t">
+    <div class="pw">
+        <div class="bread-nav"><a href="index.html"><i class="icon iconfont icon-zhuye"></i>首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="job.html">人才招聘</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="job.html">人力资源信息</a></div>
+        <div class="page-ti"><p class="ti">人力资源信息</p></div>
+    </div>
+</div>
+<!-- page-t -->
+<div class="container">
+    <div class="jb1 pw">
+        <ul class="job-mess-list">
+            <li>
+                <div class="t">
+                    <p class="nowti">员工培训制度</p>
+                    <div class="job-plus"></div>
+                </div>
+                <div class="b freeTx">
+                    <p>公司致力于卓越发动机及核心零部件制造，建设适应发展需要的学习型组织，有效提高全体员工的业务素质及专业技能，公司搭建了完善的培训体系，建立了内部培训师制度，设置了各类人员专项培训课程，支持并鼓励员工持续学习，提升自身能力素养。</p>
+                    <br>
+                    <p><strong>培训体系</strong></p>
+                    <p><img src="img/job_i1.png" alt=""></p>
+                    <br>
+                    <p><img src="img/job_i2.jpg" alt=""></p>
+                </div>
+            </li>
+            <li>
+                <div class="t">
+                    <p class="nowti">应聘指引</p>
+                    <div class="job-plus"></div>
+                </div>
+                <div class="b freeTx">
+                    <p>公司致力于卓越发动机及核心零部件制造，建设适应发展需要的学习型组织，有效提高全体员工的业务素质及专业技能，公司搭建了完善的培训体系，建立了内部培训师制度，设置了各类人员专项培训课程，支持并鼓励员工持续学习，提升自身能力素养。</p>
+                    <br>
+                    <p><strong>培训体系</strong></p>
+                    <p><img src="img/job_i1.png" alt=""></p>
+                    <br>
+                    <p><img src="img/job_i2.jpg" alt=""></p>
+                </div>
+            </li>
+            <li>
+                <div class="t">
+                    <p class="nowti">薪酬福利</p>
+                    <div class="job-plus"></div>
+                </div>
+                <div class="b freeTx">
+                    <p>公司致力于卓越发动机及核心零部件制造，建设适应发展需要的学习型组织，有效提高全体员工的业务素质及专业技能，公司搭建了完善的培训体系，建立了内部培训师制度，设置了各类人员专项培训课程，支持并鼓励员工持续学习，提升自身能力素养。</p>
+                    <br>
+                    <p><strong>培训体系</strong></p>
+                    <p><img src="img/job_i1.png" alt=""></p>
+                    <br>
+                    <p><img src="img/job_i2.jpg" alt=""></p>
+                </div>
+            </li>
+            <li>
+                <div class="t">
+                    <p class="nowti">精彩回顾</p>
+                    <div class="job-plus"></div>
+                </div>
+                <div class="b freeTx">
+                    <p>公司致力于卓越发动机及核心零部件制造，建设适应发展需要的学习型组织，有效提高全体员工的业务素质及专业技能，公司搭建了完善的培训体系，建立了内部培训师制度，设置了各类人员专项培训课程，支持并鼓励员工持续学习，提升自身能力素养。</p>
+                    <br>
+                    <p><strong>培训体系</strong></p>
+                    <p><img src="img/job_i1.png" alt=""></p>
+                    <br>
+                    <p><img src="img/job_i2.jpg" alt=""></p>
+                </div>
+            </li>
+            <li>
+                <div class="t">
+                    <p class="nowti">招聘流程</p>
+                    <div class="job-plus"></div>
+                </div>
+                <div class="b freeTx">
+                    <p>公司致力于卓越发动机及核心零部件制造，建设适应发展需要的学习型组织，有效提高全体员工的业务素质及专业技能，公司搭建了完善的培训体系，建立了内部培训师制度，设置了各类人员专项培训课程，支持并鼓励员工持续学习，提升自身能力素养。</p>
+                    <br>
+                    <p><strong>培训体系</strong></p>
+                    <p><img src="img/job_i1.png" alt=""></p>
+                    <br>
+                    <p><img src="img/job_i2.jpg" alt=""></p>
+                </div>
+            </li>
+        </ul>
+        <!-- job-mess-list -->
+    </div>
+    <!-- jb1 -->
+</div>
+<!-- container -->
+@@include('./footer.html')
+<script src="js/page.js"></script>
+<script>
+    $(function(){
+        $('.job-mess-list .t').bind(_click, function() {
+            var $parent = $(this).parent(),
+                $next = $(this).next(),
+                _act = $parent.hasClass('act');
+
+            if (_act) {
+                $parent.removeClass('act');
+                $next.stop(true,true).slideUp(400);
+            } else {
+                $('.job-mess-list li').removeClass('act');
+                $parent.addClass('act');
+                $('.job-mess-list .b').stop(true,true).slideUp(400);
+                $next.stop(true,true).slideDown(400);
+                setTimeout(function() {
+                    $('html,body').animate({scrollTop: $parent.offset().top - $mtoph - 10}, 400);
+                },400);
+            }
+        });
+    })
+</script>
+</body>
+</html>

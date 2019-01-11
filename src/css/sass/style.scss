@@ -301,3 +301,197 @@
 @media screen and (min-width:1025px) {
     .pager a:hover{ color: #fff; background: $mc2; border-color: $mc2; }
 }
+.nd-t{
+    background: $hc3; padding: 80px 0 70px 0;
+    .ti{ font-size: 24px; font-weight: bold; color: $fc1; }
+    .nd-mess{
+        margin-top: 10px;
+        li{ vertical-align: middle; 
+            + li{ margin-left: 20px; }
+        }
+    }
+    .in-date{ font-size: 14px; 
+        i{ font-size: 14px; }
+    }
+}
+.share{
+    a{ background: none !important; font-size: 14px !important; opacity: 1 !important; color: $fc2 !important; 
+        &:before{ content: ""; }
+        &:after{ content: "\e60e"; font-size: 16px; }
+    }
+}
+@media screen and (min-width:1025px) {
+    .share a:hover{ color: $mc2 !important; }
+}
+.nd-b{
+    padding: 70px 0 100px 0;
+    .freeTx{ padding: 0 60px; }
+    .nd-back{ margin-top: 70px; }
+}
+.nd-back{
+    border-top: 1px solid $hc1; padding-top: 50px; line-height: 42px;
+    a{ display: block; }
+    .back{ width: 114px; height: 42px; background: $mc2; margin: 0 auto; text-align: center; color: #fff;  }
+    .pre{ float: left; }
+    .nex{ float: right; }
+    .nowti{ line-height: 42px; max-width: 40%; }
+}
+@media screen and (min-width:1025px) {
+    .nd-back a:not(.back):hover{ color: $mc2; }
+    .nd-back .back:hover{ background: $fc2; }
+}
+.job-mess-list{
+    li{
+        + li{ margin-top: 3px; }
+        &.act{
+            .t{ background: $mc2; }
+            .job-plus:before{ transform: rotate(90deg); }
+        }
+    }
+    .t{ background: $fc3; position: relative; padding: 0 30px; color: #fff; @include mt3; cursor: pointer;
+        .nowti{ max-width: 90%; line-height: 50px; font-size: 16px; font-weight: bold; }
+    }
+    .b{ background: $hc3; padding: 45px 50px 70px 50px; display: none; }
+    .job-plus{ right: 30px; }
+}
+.job-plus{ display: block; position: absolute; top: 50%; margin-top: -1px; width: 20px; height: 2px; background: #fff; @include mt3;
+    &:before{ @include ba; left: 9px; top: -9px; width: 2px; height: 20px; background: #fff; @include mt3; }
+}
+@media screen and (min-width:1025px) {
+    .job-mess-list li:hover .t{ background: $mc2; }
+}
+.jb1{ padding: 70px 0 100px 0; }
+.recruit-list{
+    // li{ padding-right: 60px; }
+    li{ 
+        &:not(:first-child){ border-bottom: 1px solid $fc2; }
+        &:first-child{
+            .t{ background: $fc2; font-size: 16px; font-weight: bold; color: #fff; cursor: default; }
+        }
+        &.act{
+            .t{ color: #fff; background: $mc2; }
+            .job-plus, .job-plus:before{ background: #fff; }
+            .job-plus:before{ transform: rotate(90deg); }
+        }
+     }
+    .t{ padding-right: 60px; position: relative; overflow: hidden; cursor: pointer; @include mt3;
+        .job-plus{ right: 30px; background: $fc2; 
+            &:before{ background: $fc2; }
+        }
+        > div{ float: left; width: 15%; }
+        .r1{ width: 25%; 
+            .nowti{ padding-left: 50px; }
+        }
+        .nowti{ line-height: 54px; }
+    }
+    .b{ background: $hc3; padding: 45px 50px 50px 50px; display: none; }
+    .apply-btn{ color: #fff; }
+    .more{ margin-top: 40px; line-height: 1; }
+}
+.apply-btn{
+    @include di; width: 110px; height: 34px; background: $fc3; color: #fff; text-align: center; white-space: nowrap; line-height: 34px;
+}
+@media screen and (min-width:1025px) {
+    .apply-btn:hover{ background: $mc2; } 
+    .recruit-list li:not(:first-child):hover .t{ background: $mc2; color: #fff; }
+    .recruit-list li:not(:first-child):hover .job-plus:before,
+    .recruit-list li:not(:first-child):hover .job-plus{ background: #fff; }
+}
+#pro1{
+    background: $hc3;
+}
+.pro-ti{
+    font-style: italic; color: $mc2;
+    span{ @include di; }
+    .ch{ margin-right: 15px; font-weight: bold; line-height: 1.1; font-size: 30px; }
+    .en{ font-size: 16px; text-transform: uppercase; }
+    &.white{ color: #fff; }
+}
+.pro-intro{
+    .ig{ float: right; margin-left: 2.5%; width: 47.5%; }
+    .pro-ti{ margin-bottom: 30px; }
+}
+.pro-list{
+    padding: 0 45px; margin-left: -30px;
+    .item > a{ display: block; margin-left: 30px; text-align: center; }
+    .pai{ padding-bottom: 80.56%; }
+    .nowti{ margin-top: 10px; padding: 0 5%; text-transform: uppercase; }
+    .slick-prev{ left: 30px; }
+}
+@media screen and (min-width:1025px) {
+    .pro-list .item > a:hover{ color: $mc2; }
+}
+.slick-arrow{ font-family: "iconfont" !important; font-weight: bold; text-align: center; }
+.slick-prev:before{ content: "\e660"; }
+.slick-next:before{ content: "\e65f"; }
+.pro-arrow{
+    .slick-arrow{ @include c(28px); background: $fc3; line-height: 28px; color: #fff; font-size: 14px; }
+}
+@media screen and (min-width:1025px) {
+    .pro-arrow .slick-arrow:hover{ background: $mc2; }
+}
+.pro1{
+    padding: 70px 0 100px 0;
+    .pro-list{ margin-top: 40px; }
+    .anti-fake{ margin-top: 60px; }
+}
+#pro3{ background: $fc2; }
+.anti-fake{
+    width: 560px; margin: 0 auto; max-width: 100%;
+    .inp-b{
+        + .inp-b{ margin-top: 15px; }
+        overflow: hidden;
+        input, .lin{ float: left; height: 40px; }
+        input{ @include bs; width: 40%; padding-left: 15px; background: #fff; @include mt3;
+            &:focus{ background: $hc1; }
+        }
+        .lin{ width: 20%; position: relative; 
+            &:before{ @include ba; top: 50%; left: 15px; right: 15px; border-top: 1px solid #fff; }
+        }
+    }
+    .subBtn{ margin-top: 25px; width: 100%; height: 40px; background: $mc2; color: #fff; font-size: 16px; font-weight: bold; cursor: pointer; @include mt3; }
+}
+@media screen and (min-width:1025px) {
+    .anti-fake .subBtn:hover{ background: $fc3; }
+}
+.pro-search{
+    background: $fc2; padding: 25px 0;
+    input, select, .icon{ float: left; height: 34px; @include bs; }
+    input, select{ padding-left: 10px; width: 190px; margin-right: 8px; background-color: #fff; }
+    select{ background-image: url(../images/aw1.png); background-repeat: no-repeat; background-position: 95% center; }
+    input{
+        @include mt3;
+        &:focus{ background: $hc3; }
+    }
+    .icon{ width: 74px; background: $mc2; text-align: center; line-height: 34px; font-size: 14px; font-weight: bold; color: #fff; 
+        &:before{ content: ""; }
+        &:after{ content: "\e643"; font-size: 16px; font-weight: normal; }
+    }
+}
+@media screen and (min-width:1025px) {
+    .pro-search .icon:hover{ background: $fc3; }
+}
+.pro-base-mess{
+    background: $hc3; padding: 70px 0 100px 0;
+    .pro-mess-list{ margin-top: 60px; }
+    .pro-ti{ margin-bottom: 30px; }
+}
+.pro-mess-list{
+    li{
+        line-height: 1;
+        + li{ margin-left: 45px; padding-left: 45px; border-left: 1px solid $hc1; }
+    }
+    span{ display: block; margin-bottom: 10px; font-size: 20px; }
+}
+.pd-ti{ line-height: 1.4; color: $fc1; font-size: 20px; font-weight: bold; }
+.pro-tx{
+    padding: 70px 0 100px 0;
+    .pd-ti{ margin-bottom: 25px; }
+    .pro-table{ margin-top: 60px; }
+}
+.pro-table{
+    table{ width: 100%; 
+        td{ padding: 10px 25px; border: 1px solid $hc1; }
+    }
+    .tit{ background: $hc2; padding-left: 50px; }
+}
