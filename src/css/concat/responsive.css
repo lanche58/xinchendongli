@@ -56,17 +56,21 @@
     .sos-box{ margin: 0; transform: translateY(-50%); }
     .honor-list .ma { margin-left: 30px; }
     .honor-list{ margin-left: -30px; }
-    .his-list .dot, .his-list:before{ display: none; }
-    .his-list{ border-left: 2px solid #ccc; padding: 60px 0 0 0; overflow: visible; }
-    .his-list .tx{ height: auto; margin: 0; }
-    .his-list .pic{ width: 200px; max-width: 100%; height: auto; box-sizing: border-box; }
-    .his-list .date{ position: absolute; right: 100%; top: 0; width: 200px; height: auto; box-sizing: border-box; padding-left: 50px; line-height: 1; }
-    .his-list .his-cont { margin-left: 200px; }
-    .his-list .item .his-cont{ padding: 30px 0 0 0; }
-    .his-list .item{ padding: 0 0 60px 0; overflow: visible; }
-    .his-list .date:before, .his-list .date:after{ content: ""; position: absolute; top: 50%; background: #ccc; }
-    .his-list .date:before{ left: -6px; margin-top: -5px; border-radius: 100%; width: 10px; height: 10px; }
-    .his-list .date:after{ left: 0; margin-top: -1px; width: 40px; height: 2px; }
+    .his-list .item{ padding-top: 0;  }
+    .his-list .item2 .his-cont{ padding: 70px 0 0 0; }
+    .his-list:before{ top: 5px; }
+    .his-list .pic{ height: auto; }
+    .his-list .item1 .dot1{ top: 0; }
+    .his-list .item1 .dot2{ top: 90px; }
+    .his-list .item2 .dot1{ bottom: auto; top: 0; }
+    .his-list .item2 .dot1:before{ top: 100%; bottom: auto; margin: 2px 0 0 0; }
+    .his-list .item2 .dot2{ top: 90px; bottom: auto; }
+    .his-list .his-cont{ margin-right: 10px; }
+    .his-list .date{ height: auto; line-height: 1; }
+    .his-list .tx{ height: auto; }
+    .his-list{ overflow: visible; padding: 0 55px; }
+    .his-list .slick-arrow{ top: -15px; }
+    
 } /* 1024 */
 @media screen and (max-width:861px) {
     .banner .txts .ti1 { font-size: 32px; }
@@ -171,9 +175,7 @@
     .ab3 .honor-list{ margin-top: 10vw; }
     .ab3{ padding: 12vw 0 45px 0; }
     .ab4{ padding: 12vw 0 70px 0; }
-    .his-list .item{ padding-bottom: 10vw; }
-    .his-list .item .his-cont{ padding-top: 5vw; }
-    .his-list{ padding-top: 10vw; }
+    .his-list .his-cont{ margin-right: 0; }
 
 
 
@@ -228,9 +230,12 @@
     .sos-box .en{ margin-top: 5px; font-size: 14px; }
     .sos-box .fib{ margin-top: 5px; }
     .honor-list a{ width: 50%; }
-    .his-list .date{ width: 120px; padding-left: 40px; font-size: 24px; }
-    .his-list .his-cont{ margin-left: 120px; }
-    .his-list .date:after { width: 30px; }
+    .his-arrow .slick-arrow{ width: 30px; height: 30px; font-size: 12px; line-height: 30px; }
+    .his-list .slick-arrow { top: -10px; }
+    .his-list { padding: 0 45px; }
+    .his-list .date{ font-size: 28px; }
+    .his-list .tx{ margin-top: 3px; }
+
 
 
     
