@@ -1143,3 +1143,56 @@
 .pro-table .tit {
   background: #e5e5e5;
   padding-left: 50px; }
+
+.query-t {
+  background: #f2f2f2;
+  padding: 15px 25px;
+  line-height: 30px; }
+  .query-t .c-selicts {
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    background: #fff url(../images/aw1.png) no-repeat 95% center;
+    box-sizing: border-box;
+    font-size: 12px; }
+
+.query-map {
+  background: #f2f2f2;
+  height: 490px;
+  overflow: hidden; }
+
+.ser-tx .ti {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333; }
+
+.ser-tx .query-t {
+  margin-top: 60px; }
+
+.ser-tx .query-map {
+  margin-bottom: 35px; }
+
+.ser1 {
+  padding: 70px 0 100px 0; }
+  .ser1 .query-table {
+    margin-top: 60px; }
+
+.query-table {
+  overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; }
+  .query-table table {
+    width: 100%; }
+    .query-table table td, .query-table table th {
+      padding: 15px 15px 15px 35px;
+      border: 1px solid #ccc; }
+    .query-table table th {
+      color: #333; }
+
+@media screen and (min-width: 1025px) {
+  .query-table a:not(.na):hover {
+    color: #ab4133;
+    text-decoration: underline; } }

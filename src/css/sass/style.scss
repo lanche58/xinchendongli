@@ -495,3 +495,29 @@
     }
     .tit{ background: $hc2; padding-left: 50px; }
 }
+.query-t{
+    background: $hc3; padding: 15px 25px; line-height: 30px;
+    .c-selicts{ float: left; margin-left: 10px; width: 200px; height: 30px; padding-left: 10px; border: 1px solid $hc1; background: #fff url(../images/aw1.png) no-repeat 95% center; @include bs; font-size: 12px; }
+}
+.query-map{
+    background: $hc3; height: 490px; overflow: hidden;
+}
+.ser-tx{
+    .ti{ margin-bottom: 20px; font-size: 20px; color: $fc1; }
+    .query-t{ margin-top: 60px; }
+    .query-map{ margin-bottom: 35px; }
+}
+.ser1{ padding: 70px 0 100px 0; 
+    .query-table{ margin-top: 60px; }
+}
+.query-table{
+    @include sx;
+    table{
+        width: 100%;
+        td, th{ padding: 15px 15px 15px 35px; border: 1px solid $hc1; }
+        th{ color: $fc1; }
+    }
+}
+@media screen and (min-width:1025px) {
+    .query-table a:not(.na):hover{ color: $mc2; text-decoration: underline; }
+}
