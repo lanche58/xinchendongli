@@ -1144,7 +1144,6 @@
   background: #e5e5e5;
   padding-left: 50px; }
 
-<<<<<<< HEAD
 .query-t {
   background: #f2f2f2;
   padding: 15px 25px;
@@ -1197,7 +1196,7 @@
   .query-table a:not(.na):hover {
     color: #ab4133;
     text-decoration: underline; } }
-=======
+
 .sos-box {
   text-align: center;
   position: fixed;
@@ -1407,4 +1406,3 @@
 
 .ab4 {
   padding: 70px 0 100px 0; }
->>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423

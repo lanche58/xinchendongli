@@ -270,30 +270,30 @@ from,to{-webkit-transform:none;-moz-transform:none;transform:none}
 100%{background:-webkit-linear-gradient(330deg,transparent 85%,rgba(255,255,255,.5),transparent 115%);background:linear-gradient(120deg,transparent 85%,rgba(255,255,255,.5),transparent 115%)}
 }
 @-moz-keyframes _cyLogoShow{
-0%{background:-moz-linear-gradient(330deg,transparent -15%,rgba(255,255,255,.5),transparent 15%);background:linear-gradient(120deg,transparent -15%,rgba(255,255,255,.5),transparent 15%)}
-10%{background:-moz-linear-gradient(330deg,transparent -5%,rgba(255,255,255,.5),transparent 25%);background:linear-gradient(120deg,transparent -5%,rgba(255,255,255,.5),transparent 25%)}
-20%{background:-moz-linear-gradient(330deg,transparent 5%,rgba(255,255,255,.5),transparent 35%);background:linear-gradient(120deg,transparent 5%,rgba(255,255,255,.5),transparent 35%)}
-30%{background:-moz-linear-gradient(330deg,transparent 15%,rgba(255,255,255,.5),transparent 45%);background:linear-gradient(120deg,transparent 15%,rgba(255,255,255,.5),transparent 45%)}
-40%{background:-moz-linear-gradient(330deg,transparent 25%,rgba(255,255,255,.5),transparent 55%);background:linear-gradient(120deg,transparent 25%,rgba(255,255,255,.5),transparent 55%)}
-50%{background:-moz-linear-gradient(330deg,transparent 35%,rgba(255,255,255,.5),transparent 65%);background:linear-gradient(120deg,transparent 35%,rgba(255,255,255,.5),transparent 65%)}
-60%{background:-moz-linear-gradient(330deg,transparent 45%,rgba(255,255,255,.5),transparent 75%);background:linear-gradient(120deg,transparent 45%,rgba(255,255,255,.5),transparent 75%)}
-70%{background:-moz-linear-gradient(330deg,transparent 55%,rgba(255,255,255,.5),transparent 85%);background:linear-gradient(120deg,transparent 55%,rgba(255,255,255,.5),transparent 85%)}
-80%{background:-moz-linear-gradient(330deg,transparent 65%,rgba(255,255,255,.5),transparent 95%);background:linear-gradient(120deg,transparent 65%,rgba(255,255,255,.5),transparent 95%)}
-90%{background:-moz-linear-gradient(330deg,transparent 75%,rgba(255,255,255,.5),transparent 105%);background:linear-gradient(120deg,transparent 75%,rgba(255,255,255,.5),transparent 105%)}
-100%{background:-moz-linear-gradient(330deg,transparent 85%,rgba(255,255,255,.5),transparent 115%);background:linear-gradient(120deg,transparent 85%,rgba(255,255,255,.5),transparent 115%)}
+0%{background:-moz- oldlinear-gradient(330deg,transparent -15%,rgba(255,255,255,.5),transparent 15%);background:linear-gradient(120deg,transparent -15%,rgba(255,255,255,.5),transparent 15%)}
+10%{background:-moz- oldlinear-gradient(330deg,transparent -5%,rgba(255,255,255,.5),transparent 25%);background:linear-gradient(120deg,transparent -5%,rgba(255,255,255,.5),transparent 25%)}
+20%{background:-moz- oldlinear-gradient(330deg,transparent 5%,rgba(255,255,255,.5),transparent 35%);background:linear-gradient(120deg,transparent 5%,rgba(255,255,255,.5),transparent 35%)}
+30%{background:-moz- oldlinear-gradient(330deg,transparent 15%,rgba(255,255,255,.5),transparent 45%);background:linear-gradient(120deg,transparent 15%,rgba(255,255,255,.5),transparent 45%)}
+40%{background:-moz- oldlinear-gradient(330deg,transparent 25%,rgba(255,255,255,.5),transparent 55%);background:linear-gradient(120deg,transparent 25%,rgba(255,255,255,.5),transparent 55%)}
+50%{background:-moz- oldlinear-gradient(330deg,transparent 35%,rgba(255,255,255,.5),transparent 65%);background:linear-gradient(120deg,transparent 35%,rgba(255,255,255,.5),transparent 65%)}
+60%{background:-moz- oldlinear-gradient(330deg,transparent 45%,rgba(255,255,255,.5),transparent 75%);background:linear-gradient(120deg,transparent 45%,rgba(255,255,255,.5),transparent 75%)}
+70%{background:-moz- oldlinear-gradient(330deg,transparent 55%,rgba(255,255,255,.5),transparent 85%);background:linear-gradient(120deg,transparent 55%,rgba(255,255,255,.5),transparent 85%)}
+80%{background:-moz- oldlinear-gradient(330deg,transparent 65%,rgba(255,255,255,.5),transparent 95%);background:linear-gradient(120deg,transparent 65%,rgba(255,255,255,.5),transparent 95%)}
+90%{background:-moz- oldlinear-gradient(330deg,transparent 75%,rgba(255,255,255,.5),transparent 105%);background:linear-gradient(120deg,transparent 75%,rgba(255,255,255,.5),transparent 105%)}
+100%{background:-moz- oldlinear-gradient(330deg,transparent 85%,rgba(255,255,255,.5),transparent 115%);background:linear-gradient(120deg,transparent 85%,rgba(255,255,255,.5),transparent 115%)}
 }
 @keyframes _cyLogoShow{
-0%{background:-webkit-linear-gradient(330deg,transparent -15%,rgba(255,255,255,.5),transparent 15%);background:-moz-linear-gradient(330deg,transparent -15%,rgba(255,255,255,.5),transparent 15%);background:linear-gradient(120deg,transparent -15%,rgba(255,255,255,.5),transparent 15%)}
-10%{background:-webkit-linear-gradient(330deg,transparent -5%,rgba(255,255,255,.5),transparent 25%);background:-moz-linear-gradient(330deg,transparent -5%,rgba(255,255,255,.5),transparent 25%);background:linear-gradient(120deg,transparent -5%,rgba(255,255,255,.5),transparent 25%)}
-20%{background:-webkit-linear-gradient(330deg,transparent 5%,rgba(255,255,255,.5),transparent 35%);background:-moz-linear-gradient(330deg,transparent 5%,rgba(255,255,255,.5),transparent 35%);background:linear-gradient(120deg,transparent 5%,rgba(255,255,255,.5),transparent 35%)}
-30%{background:-webkit-linear-gradient(330deg,transparent 15%,rgba(255,255,255,.5),transparent 45%);background:-moz-linear-gradient(330deg,transparent 15%,rgba(255,255,255,.5),transparent 45%);background:linear-gradient(120deg,transparent 15%,rgba(255,255,255,.5),transparent 45%)}
-40%{background:-webkit-linear-gradient(330deg,transparent 25%,rgba(255,255,255,.5),transparent 55%);background:-moz-linear-gradient(330deg,transparent 25%,rgba(255,255,255,.5),transparent 55%);background:linear-gradient(120deg,transparent 25%,rgba(255,255,255,.5),transparent 55%)}
-50%{background:-webkit-linear-gradient(330deg,transparent 35%,rgba(255,255,255,.5),transparent 65%);background:-moz-linear-gradient(330deg,transparent 35%,rgba(255,255,255,.5),transparent 65%);background:linear-gradient(120deg,transparent 35%,rgba(255,255,255,.5),transparent 65%)}
-60%{background:-webkit-linear-gradient(330deg,transparent 45%,rgba(255,255,255,.5),transparent 75%);background:-moz-linear-gradient(330deg,transparent 45%,rgba(255,255,255,.5),transparent 75%);background:linear-gradient(120deg,transparent 45%,rgba(255,255,255,.5),transparent 75%)}
-70%{background:-webkit-linear-gradient(330deg,transparent 55%,rgba(255,255,255,.5),transparent 85%);background:-moz-linear-gradient(330deg,transparent 55%,rgba(255,255,255,.5),transparent 85%);background:linear-gradient(120deg,transparent 55%,rgba(255,255,255,.5),transparent 85%)}
-80%{background:-webkit-linear-gradient(330deg,transparent 65%,rgba(255,255,255,.5),transparent 95%);background:-moz-linear-gradient(330deg,transparent 65%,rgba(255,255,255,.5),transparent 95%);background:linear-gradient(120deg,transparent 65%,rgba(255,255,255,.5),transparent 95%)}
-90%{background:-webkit-linear-gradient(330deg,transparent 75%,rgba(255,255,255,.5),transparent 105%);background:-moz-linear-gradient(330deg,transparent 75%,rgba(255,255,255,.5),transparent 105%);background:linear-gradient(120deg,transparent 75%,rgba(255,255,255,.5),transparent 105%)}
-100%{background:-webkit-linear-gradient(330deg,transparent 85%,rgba(255,255,255,.5),transparent 115%);background:-moz-linear-gradient(330deg,transparent 85%,rgba(255,255,255,.5),transparent 115%);background:linear-gradient(120deg,transparent 85%,rgba(255,255,255,.5),transparent 115%)}
+0%{background:-webkit-linear-gradient(330deg,transparent -15%,rgba(255,255,255,.5),transparent 15%);background:-moz- oldlinear-gradient(330deg,transparent -15%,rgba(255,255,255,.5),transparent 15%);background:linear-gradient(120deg,transparent -15%,rgba(255,255,255,.5),transparent 15%)}
+10%{background:-webkit-linear-gradient(330deg,transparent -5%,rgba(255,255,255,.5),transparent 25%);background:-moz- oldlinear-gradient(330deg,transparent -5%,rgba(255,255,255,.5),transparent 25%);background:linear-gradient(120deg,transparent -5%,rgba(255,255,255,.5),transparent 25%)}
+20%{background:-webkit-linear-gradient(330deg,transparent 5%,rgba(255,255,255,.5),transparent 35%);background:-moz- oldlinear-gradient(330deg,transparent 5%,rgba(255,255,255,.5),transparent 35%);background:linear-gradient(120deg,transparent 5%,rgba(255,255,255,.5),transparent 35%)}
+30%{background:-webkit-linear-gradient(330deg,transparent 15%,rgba(255,255,255,.5),transparent 45%);background:-moz- oldlinear-gradient(330deg,transparent 15%,rgba(255,255,255,.5),transparent 45%);background:linear-gradient(120deg,transparent 15%,rgba(255,255,255,.5),transparent 45%)}
+40%{background:-webkit-linear-gradient(330deg,transparent 25%,rgba(255,255,255,.5),transparent 55%);background:-moz- oldlinear-gradient(330deg,transparent 25%,rgba(255,255,255,.5),transparent 55%);background:linear-gradient(120deg,transparent 25%,rgba(255,255,255,.5),transparent 55%)}
+50%{background:-webkit-linear-gradient(330deg,transparent 35%,rgba(255,255,255,.5),transparent 65%);background:-moz- oldlinear-gradient(330deg,transparent 35%,rgba(255,255,255,.5),transparent 65%);background:linear-gradient(120deg,transparent 35%,rgba(255,255,255,.5),transparent 65%)}
+60%{background:-webkit-linear-gradient(330deg,transparent 45%,rgba(255,255,255,.5),transparent 75%);background:-moz- oldlinear-gradient(330deg,transparent 45%,rgba(255,255,255,.5),transparent 75%);background:linear-gradient(120deg,transparent 45%,rgba(255,255,255,.5),transparent 75%)}
+70%{background:-webkit-linear-gradient(330deg,transparent 55%,rgba(255,255,255,.5),transparent 85%);background:-moz- oldlinear-gradient(330deg,transparent 55%,rgba(255,255,255,.5),transparent 85%);background:linear-gradient(120deg,transparent 55%,rgba(255,255,255,.5),transparent 85%)}
+80%{background:-webkit-linear-gradient(330deg,transparent 65%,rgba(255,255,255,.5),transparent 95%);background:-moz- oldlinear-gradient(330deg,transparent 65%,rgba(255,255,255,.5),transparent 95%);background:linear-gradient(120deg,transparent 65%,rgba(255,255,255,.5),transparent 95%)}
+90%{background:-webkit-linear-gradient(330deg,transparent 75%,rgba(255,255,255,.5),transparent 105%);background:-moz- oldlinear-gradient(330deg,transparent 75%,rgba(255,255,255,.5),transparent 105%);background:linear-gradient(120deg,transparent 75%,rgba(255,255,255,.5),transparent 105%)}
+100%{background:-webkit-linear-gradient(330deg,transparent 85%,rgba(255,255,255,.5),transparent 115%);background:-moz- oldlinear-gradient(330deg,transparent 85%,rgba(255,255,255,.5),transparent 115%);background:linear-gradient(120deg,transparent 85%,rgba(255,255,255,.5),transparent 115%)}
 }
 @-webkit-keyframes logoShow{
 from,to{-webkit-transform:scale(1,1);transform:scale(1,1)}
@@ -529,8 +529,8 @@ to{width:0}
 .active .am-delay-12{-webkit-animation-delay:1.2s;-moz-animation-delay:1.2s;animation-delay:1.2s}
 }
 .bubbly-button:after,.bubbly-button:before{position:absolute;content:"";display:block;width:140%;height:100%;left:-20%;-webkit-transition:all ease-in-out .5s;-moz-transition:all ease-in-out .5s;transition:all ease-in-out .5s;background-repeat:no-repeat}
-.bubbly-button:before{display:none;top:-75%;background-image:-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,transparent 20%,#0079c3 20%,transparent 30%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%);background-image:-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,transparent 20%,#0079c3 20%,transparent 30%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%);background-image:radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,transparent 20%,#0079c3 20%,transparent 30%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%);background-size:10% 10%,20% 20%,15% 15%,20% 20%,18% 18%,10% 10%,15% 15%,10% 10%,18% 18%}
-.bubbly-button:after{display:none;bottom:-75%;background-image:-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%);background-image:-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%),-moz-radial-gradient(circle,#0079c3 20%,transparent 20%);background-image:radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%);background-size:15% 15%,20% 20%,18% 18%,20% 20%,15% 15%,10% 10%,20% 20%}
+.bubbly-button:before{display:none;top:-75%;background-image:-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,transparent 20%,#0079c3 20%,transparent 30%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%);background-image:-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,transparent 20%,#0079c3 20%,transparent 30%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%);background-image:radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,transparent 20%,#0079c3 20%,transparent 30%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%);background-size:10% 10%,20% 20%,15% 15%,20% 20%,18% 18%,10% 10%,15% 15%,10% 10%,18% 18%}
+.bubbly-button:after{display:none;bottom:-75%;background-image:-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%),-webkit-radial-gradient(circle,#0079c3 20%,transparent 20%);background-image:-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%),-moz- oldradial-gradient(circle,#0079c3 20%,transparent 20%);background-image:radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,transparent 10%,#0079c3 15%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%),radial-gradient(circle,#0079c3 20%,transparent 20%);background-size:15% 15%,20% 20%,18% 18%,20% 20%,15% 15%,10% 10%,20% 20%}
 @-webkit-keyframes topBubbles{
 0%{background-position:5% 90%,10% 90%,10% 90%,15% 90%,25% 90%,25% 90%,40% 90%,55% 90%,70% 90%}
 50%{background-position:0 80%,0 20%,10% 40%,20% 0,30% 30%,22% 50%,50% 50%,65% 20%,90% 30%}
@@ -1038,7 +1038,6 @@ a.pswp__share--download:hover{background:#ddd}
 .pro-table table{width:100%}
 .pro-table table td{padding:10px 25px;border:1px solid #ccc}
 .pro-table .tit{background:#e5e5e5;padding-left:50px}
-<<<<<<< HEAD
 .query-t{background:#f2f2f2;padding:15px 25px;line-height:30px}
 .query-t .c-selicts{float:left;margin-left:10px;width:200px;height:30px;padding-left:10px;border:1px solid #ccc;background:#fff url(../images/aw1.png) no-repeat 95% center;-moz-box-sizing:border-box;box-sizing:border-box;font-size:12px}
 .query-map{background:#f2f2f2;height:490px;overflow:hidden}
@@ -1054,7 +1053,6 @@ a.pswp__share--download:hover{background:#ddd}
 @media screen and (min-width:1025px){
 .query-table a:not(.na):hover{color:#ab4133;text-decoration:underline}
 }
-=======
 .sos-box{text-align:center;position:fixed;left:0;right:0;top:50%;margin-top:-182px;padding:0 10%;font-size:12px}
 .sos-box img{vertical-align:bottom;max-width:90%}
 .sos-box .ch{margin-top:30px;font-size:30px;font-weight:700}
@@ -1119,7 +1117,6 @@ a.pswp__share--download:hover{background:#ddd}
 .his-list .his-cont:hover .date{color:#ab4133}
 }
 .ab4{padding:70px 0 100px 0}
->>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423
 @media screen and (max-width:1366px){
 .header .nav>li>a{padding:28px 15px;font-size:14px}
 .header .nav{margin-left:9%}
@@ -1222,10 +1219,8 @@ a.pswp__share--download:hover{background:#ddd}
 .pro-list .slick-prev{left:15px}
 .pro-table table{width:800px}
 .tab-box{overflow:hidden;overflow-x:auto;-webkit-overflow-scrolling:touch}
-<<<<<<< HEAD
 .query-table table td,.query-table table th{padding-left:25px}
 .query-table table{width:800px}
-=======
 .rdi-list .nowti{line-height:40px;font-size:12px}
 .rd-arrow .slick-arrow{font-size:24px}
 .rd-arrow .slick-prev{left:5px}
@@ -1236,7 +1231,6 @@ a.pswp__share--download:hover{background:#ddd}
 .honor-list a{margin-bottom:25px}
 .ab3{padding-bottom:75px}
 .ab3 .honor-list{margin-top:60px}
->>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423
 }
 @media screen and (max-width:641px){
 .banner .txts .ti1{font-size:26px}
@@ -1294,13 +1288,11 @@ a.pswp__share--download:hover{background:#ddd}
 .pro-mess-list li+li{margin-left:7.5vw;padding-left:7.5vw}
 .pro-tx .pd-ti{margin-bottom:5vw}
 .pro-tx .pro-table{margin-top:10vw}
-<<<<<<< HEAD
 .query-map{height:81.67vw}
 .ser1{padding:12vw 0 70px}
 .ser-tx .query-t,.ser1 .query-table{margin-top:10vw}
 .ser-tx .query-map{margin-bottom:5.83vw}
 .query-table table td,.query-table table th{padding-top:2.5vw;padding-bottom:2.5vw}
-=======
 .sos-box .ch{font-size:24px}
 .sos-box .en{font-size:18px}
 .sos-box .tx1{margin-top:10vw}
@@ -1311,7 +1303,6 @@ a.pswp__share--download:hover{background:#ddd}
 .ab3{padding:12vw 0 45px 0}
 .ab4{padding:12vw 0 70px 0}
 .his-list .his-cont{margin-right:0}
->>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423
 }
 @media screen and (max-width:481px){
 .menuBox{width:220px;right:-220px}
@@ -1359,10 +1350,8 @@ a.pswp__share--download:hover{background:#ddd}
 .anti-fake .inp-b .lin:before{left:5px;right:5px}
 .pro-mess-list span{font-size:16px;margin-bottom:5px}
 .pro-mess-list li{font-size:12px}
-<<<<<<< HEAD
 .query-t .l{margin-bottom:0}
 .ser-tx .ti{font-size:18px}
-=======
 .sos-box .ch{font-size:20px}
 .sos-box .en{margin-top:5px;font-size:14px}
 .sos-box .fib{margin-top:5px}
@@ -1372,5 +1361,4 @@ a.pswp__share--download:hover{background:#ddd}
 .his-list{padding:0 45px}
 .his-list .date{font-size:28px}
 .his-list .tx{margin-top:3px}
->>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423
 }

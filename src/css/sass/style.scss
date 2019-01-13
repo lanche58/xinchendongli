@@ -495,7 +495,6 @@
     }
     .tit{ background: $hc2; padding-left: 50px; }
 }
-<<<<<<< HEAD
 .query-t{
     background: $hc3; padding: 15px 25px; line-height: 30px;
     .c-selicts{ float: left; margin-left: 10px; width: 200px; height: 30px; padding-left: 10px; border: 1px solid $hc1; background: #fff url(../images/aw1.png) no-repeat 95% center; @include bs; font-size: 12px; }
@@ -522,7 +521,6 @@
 @media screen and (min-width:1025px) {
     .query-table a:not(.na):hover{ color: $mc2; text-decoration: underline; }
 }
-=======
 .sos-box{
     text-align: center; position: fixed; left: 0; right: 0; top: 50%; margin-top: -182px; padding: 0 10%; font-size: 12px;
     img{ vertical-align: bottom; max-width: 90%; }
@@ -614,4 +612,3 @@
     .his-list .his-cont:hover .date{ color: $mc2; }
 }
 .ab4{ padding: 70px 0 100px 0; }
->>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423
