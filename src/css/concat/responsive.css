@@ -20,6 +20,13 @@
     .spec-news .more{ margin-top: 50px; }
     .recruit-list .t .r1 .nowti{ padding-left: 30px; }
     .recruit-list .b{ padding-left: 30px; padding-right: 30px; }
+    .honor-list .ma { margin-left: 40px; }
+    .honor-list{ margin-left: -40px; }
+    .his-list .pic{ height: 96px; }
+    .his-list .item1 { padding-top: 212px; }
+    .his-list:before{ top: 212px; }
+    .his-list .slick-arrow { top: 192px; }
+    .his-list { padding: 0 50px; }
 } /* 1366 */
 @media screen and (max-width:1201px) {
     .banner .txts .ti1{ font-size: 40px; }
@@ -46,7 +53,24 @@
     .job-mess-list .b, .job-mess-list .t{ padding-left: 5%; padding-right: 5%; }
     .job-mess-list .job-plus{ right: 5%; }
     .pro-table .tit{ padding-left: 25px; }
-
+    .sos-box{ margin: 0; transform: translateY(-50%); }
+    .honor-list .ma { margin-left: 30px; }
+    .honor-list{ margin-left: -30px; }
+    .his-list .item{ padding-top: 0;  }
+    .his-list .item2 .his-cont{ padding: 70px 0 0 0; }
+    .his-list:before{ top: 5px; }
+    .his-list .pic{ height: auto; }
+    .his-list .item1 .dot1{ top: 0; }
+    .his-list .item1 .dot2{ top: 90px; }
+    .his-list .item2 .dot1{ bottom: auto; top: 0; }
+    .his-list .item2 .dot1:before{ top: 100%; bottom: auto; margin: 2px 0 0 0; }
+    .his-list .item2 .dot2{ top: 90px; bottom: auto; }
+    .his-list .his-cont{ margin-right: 10px; }
+    .his-list .date{ height: auto; line-height: 1; }
+    .his-list .tx{ height: auto; }
+    .his-list{ overflow: visible; padding: 0 55px; }
+    .his-list .slick-arrow{ top: -15px; }
+    
 } /* 1024 */
 @media screen and (max-width:861px) {
     .banner .txts .ti1 { font-size: 32px; }
@@ -79,8 +103,21 @@
     .pro-list .slick-prev { left: 15px; }
     .pro-table table{ width: 800px; }
     .tab-box{ overflow: hidden; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+<<<<<<< HEAD
     .query-table table td, .query-table table th{ padding-left: 25px; }
     .query-table table{ width: 800px; }
+=======
+    .rdi-list .nowti { line-height: 40px; font-size: 12px; }
+    .rd-arrow .slick-arrow { font-size: 24px; }
+    .rd-arrow .slick-prev{ left: 5px; }
+    .rd-arrow .slick-next{ right: 5px; }
+    .honor-list .nowti{ font-size: 12px; }
+    .honor-list .ma { margin-left: 20px; }
+    .honor-list{ margin-left: -20px; }
+    .honor-list a{ margin-bottom: 25px; }
+    .ab3{ padding-bottom: 75px; }
+    .ab3 .honor-list{ margin-top: 60px; }
+>>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423
 } /* 861 */
 @media screen and (max-width:641px) {
     .banner .txts .ti1 { font-size: 26px; }
@@ -138,11 +175,24 @@
     .pro-mess-list li+li { margin-left: 7.5vw; padding-left: 7.5vw; }
     .pro-tx .pd-ti { margin-bottom: 5vw; }
     .pro-tx .pro-table{ margin-top: 10vw; }
+<<<<<<< HEAD
     .query-map{ height: 81.67vw; }
     .ser1{ padding: 12vw 0 70px; }
     .ser1 .query-table, .ser-tx .query-t{ margin-top: 10vw; }
     .ser-tx .query-map{ margin-bottom: 5.83vw; }
     .query-table table td, .query-table table th{ padding-top: 2.5vw; padding-bottom: 2.5vw; }
+=======
+    .sos-box .ch{ font-size: 24px; }
+    .sos-box .en{ font-size: 18px; }
+    .sos-box .tx1{ margin-top: 10vw; }
+    .sos-box .ch{ margin-top: 5vw; }
+    .rd-tx .rdi-list{ width: 100%; float: none; margin: 0 0 6.67vw 0; }
+    .rdi-list .nowti{ line-height: 50px; font-size: 14px; }
+    .ab3 .honor-list{ margin-top: 10vw; }
+    .ab3{ padding: 12vw 0 45px 0; }
+    .ab4{ padding: 12vw 0 70px 0; }
+    .his-list .his-cont{ margin-right: 0; }
+>>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423
 
 
 
@@ -193,8 +243,22 @@
     .anti-fake .inp-b .lin:before { left: 5px; right: 5px; }
     .pro-mess-list span{ font-size: 16px; margin-bottom: 5px; }
     .pro-mess-list li{ font-size: 12px; }
+<<<<<<< HEAD
     .query-t .l{ margin-bottom: 0; }
     .ser-tx .ti{ font-size: 18px; }
+=======
+    .sos-box .ch{ font-size: 20px; }
+    .sos-box .en{ margin-top: 5px; font-size: 14px; }
+    .sos-box .fib{ margin-top: 5px; }
+    .honor-list a{ width: 50%; }
+    .his-arrow .slick-arrow{ width: 30px; height: 30px; font-size: 12px; line-height: 30px; }
+    .his-list .slick-arrow { top: -10px; }
+    .his-list { padding: 0 45px; }
+    .his-list .date{ font-size: 28px; }
+    .his-list .tx{ margin-top: 3px; }
+
+
+>>>>>>> 0e781bb23e3d869a89352b9a89656d4863adc423
 
     
 
