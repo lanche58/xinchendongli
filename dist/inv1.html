@@ -1,10 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新晨动力</title>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<meta name="msapplication-navbutton-color" content="#4285f4">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link href="css/iconfont.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
 <div class="header">
     <div class="pull-nav-bg"></div>
     <div class="pw clearfix">
-        <a href="index.html" class="logo"><img src="images/logo.png" /></a>
+        <a href="index.html" class="logo"><img src="images/logo.png"></a>
         <ul class="nav">
-            <li><a href="index.html" @@if (context.index==='act') { class="act" }>首页<p class="sj sj-b"></p></a></li>
-            <li><a href="about.html" @@if (context.about==='act') { class="act" }>关于公司<p class="sj sj-b"></p></a>
+            <li><a href="index.html">首页<p class="sj sj-b"></p></a></li>
+            <li><a href="about.html">关于公司<p class="sj sj-b"></p></a>
                 <div class="pull-nav">
                     <a href="about.html">公司简介<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                     <a href="about1.html">企业文化<i class="icon iconfont icon-xiangyoujiantou"></i></a>
@@ -12,28 +30,28 @@
                     <a href="about3.html">研发实力<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                 </div>
             </li>
-            <li><a href="news.html" @@if (context.news==='act') { class="act" }>新闻中心<p class="sj sj-b"></p></a></li>
-            <li><a href="pro.html" @@if (context.pro==='act') { class="act" }>产品介绍<p class="sj sj-b"></p></a>
+            <li><a href="news.html">新闻中心<p class="sj sj-b"></p></a></li>
+            <li><a href="pro.html">产品介绍<p class="sj sj-b"></p></a>
                 <div class="pull-nav">
                     <a href="pro.html?#pro1">CE发动机<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                     <a href="pro.html?#pro2">A平台产品零部件<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                     <a href="pro.html?#pro3">防伪认证<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                 </div>
             </li>
-            <li><a href="ser.html" @@if (context.ser==='act') { class="act" }>客户服务<p class="sj sj-b"></p></a>
+            <li><a href="ser.html">客户服务<p class="sj sj-b"></p></a>
                 <div class="pull-nav">
                     <a href="ser.html">服务查询<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                     <a href="cta.html">联系我们<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                 </div>
             </li>
-            <li><a href="job.html" @@if (context.job==='act') { class="act" }>人才招聘<p class="sj sj-b"></p></a>
+            <li><a href="job.html">人才招聘<p class="sj sj-b"></p></a>
                 <div class="pull-nav">
                     <a href="job.html">人力资源信息<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                     <a href="job1.html">社会招聘<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                     <a href="job2.html">校园招聘<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                 </div>
             </li>
-            <li class="inv"><a href="inv.html" @@if (context.inv==='act') { class="act" }>投资者关系<p class="sj sj-b"></p></a>
+            <li class="inv"><a href="inv.html" class="act">投资者关系<p class="sj sj-b"></p></a>
                 <div class="pull-nav">
                     <a href="inv1.html">公司资料<i class="icon iconfont icon-xiangyoujiantou"></i></a>
                     <a href="inv2.html">组织章程大纲及公司细则<i class="icon iconfont icon-xiangyoujiantou"></i></a>
@@ -54,13 +72,13 @@
         </div>
     </div>
 </div>
-<!-- header -->
+
 <div class="menu-handler">
     <span class="burger burger-1 mtrans"></span>
     <span class="burger burger-2 mtrans"></span>
     <span class="burger burger-3 mtrans"></span>
 </div>
-<!-- menu-handler -->
+
 <div class="menuBox">
     <div class="lang"><a href="#" class="act">中</a><a href="#">EN</a></div>
     <dl class="navMobile">
@@ -111,8 +129,49 @@
         </dd>
         <dd><a href="cta.html">联系我们</a></dd>
     </dl>
-    <br/><br/><br/><br/>
+    <br><br><br><br>
 </div>
-<!-- menuBox -->
+
 <div class="menuBlack"></div>
 <div class="mtop"></div>
+
+<div class="page-t">
+    <div class="pw">
+        <div class="bread-nav"><a href="index.html"><i class="icon iconfont icon-zhuye"></i>首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="inv.html">投资者关系</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="inv1.html">公司资料</a></div>
+        <div class="page-ti"><p class="ti">公司资料</p></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="inv1 pw">
+        <div class="comp-infor">
+            <table>
+                <tr><th>注册成立地点:</th><td>开曼群岛</td></tr>
+                <tr><th>股份交易:</th><td>香港联合交易所有限公司</td></tr>
+                <tr><th>股份代号:</th><td>1148.HK</td></tr>
+                <tr><th>注册办事处:</th><td>Clifton House, 75 Fort Street, PO Box 1350, <br>Grand Cayman KY1-1108, Cayman Islands</td></tr>
+                <tr><th>总辨事处暨香港主要营业地点:</th><td>香港干诺道中8号遮打大厦1602-05室</td></tr>
+                <tr><th>中国主要营业地点:</th><td>中国四川省绵阳高新技术产业开发区兴昌大道69号</td></tr>
+                <tr><th>主要股份过户登记处:</th><td>Estera Trust (Cayman) Limited<br>Clifton House, 75 Fort Street, PO Box 1350, <br>Grand Cayman KY1-1108, Cayman Islands</td></tr>
+                <tr><th>法定股本:</th><td>8,000,000,000</td></tr>
+                <tr><th>已发行股本:</th><td>1,282,211,794(于 31/12/2017)</td></tr>
+            </table>
+        </div>
+    </div>
+    
+</div>
+
+<div class="footer">
+    <div class="pw clearfix">
+        <div class="f-ctas">
+            <p><a href="tel:8008868886" class="na"><i class="icon iconfont icon-dianhua"></i>免费热线<i class="num">+86 800-886-8886</i></a></p>
+            <p><a href="tel:08162377315" class="na"></a><i class="icon iconfont icon-dianhua"></i>三包热线<i class="num">+86 0816-2377315</i></p>
+        </div>
+        <p class="f-cop">© 2018&nbsp;&nbsp;&nbsp;&nbsp;绵阳新晨动力机械有限公司&nbsp;&nbsp;版权所有&nbsp;&nbsp;|&nbsp;&nbsp;蜀ICP备13000945号</p>
+    </div>
+</div>
+<script src="js/plugin.js"></script>
+
+<script src="js/page.js"></script>
+</body>
+</html>

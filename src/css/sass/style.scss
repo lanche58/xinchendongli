@@ -612,3 +612,165 @@
     .his-list .his-cont:hover .date{ color: $mc2; }
 }
 .ab4{ padding: 70px 0 100px 0; }
+.cta-list{
+    margin-left: -50px;
+    li{ width: 50%; float: left; margin-bottom: 70px; font-size: 16px; }
+    .ma{ margin-left: 50px; }
+    .ti{ color: $fc1; }
+    .ti1{ margin-bottom: 3px; font-weight: bold; font-size: 20px; }
+    .ti2{ padding-bottom: 20px; margin-bottom: 25px; border-bottom: 1px solid $hc1; font-size: 14px; }
+    .item1{ clear: both; }
+}
+@media screen and (min-width:1025px) {
+    .cta-list a:not(.na):hover{ color: $mc2; }
+}
+.consult-group{
+    .consu-ma, .consu-qq{ float: left; }
+}
+.consu-qq{
+    @include c(104px); padding-top: 25px; background: $fc2; @include bs; color: #fff; text-align: center;
+    .icon{ display: block; margin-bottom: 3px; line-height: 1; font-size: 20px; }
+    + .consu-qq{ margin-left: 30px; }
+}
+.consu-ma{
+    text-align: center; margin-left: 30px;
+    > img{ display: block; margin-bottom: 5px; width: 102px; border: 1px solid $hc1; }
+}
+@media screen and (min-width:1025px) {
+    .consu-qq:hover{ background-color: $mc2; }
+}
+.mess-tx{
+    background: $hc2; padding: 18px 25px;
+    .re{ color: $mc2; }
+}
+.fill-in-mess{
+    .co{ padding: 0 25px; border-left: 1px solid $hc1; border-right: 1px solid $hc1; }
+    .must{ color: $mc2; }
+    .t{
+        padding-top: 40px; padding-bottom: 80px;
+        .mess-end{ margin-top: 70px; }
+    }
+    .b{ border-top: 1px solid $hc1; padding-top: 10px; padding-bottom: 40px;
+        .mess-end{ margin-top: 10px; line-height: 26px; }
+        > p{ margin-bottom: 15px; }
+    }
+}
+.mess-inp{
+    overflow: hidden; line-height: 32px;
+    + .mess-inp{ margin-top: 10px; }
+    > label{ float: left; width: 145px; font-weight: bold; }
+    > .inp{ width: 680px; float: left; }
+    .inp{ @include bs; line-height: 1.8; @include mt3;
+        &:focus{ border-color: $mc2; }
+    }
+    > .sele{ width: 180px; float: left; }
+    .sele{ background: url(../images/aw1.png) no-repeat 93% center; }
+    .sele, .inp{ height: 32px; border: 1px solid $hc1; padding-left: 15px; }
+    .mess-type, .tel{ overflow: hidden; }
+    .t1{ width: 70px; margin-left: 10px; }
+    .t2{ width: 220px; margin-left: 5px; }
+    .t3{ width: 80px; }
+}
+.mess-chec{
+    + .mess-chec{ margin-top: 6px; }
+    overflow: hidden; line-height: 24px;
+    > label{ overflow: hidden; }
+    .chec{ float: left; position: relative; margin: 5px 10px 0 0; width: 12px; height: 12px; border: 1px solid $hc1;
+        &:before{ @include ba; top: 50%; left: 50%; margin: -7px 0 0 -9px; width: 18px; height: 14px; background: url(../images/g.png) no-repeat; @include hide; @include mt3; }
+    }
+    input{ position: absolute; top: 0; left: 0; @include hide; }
+    &.act .chec:before{ @include show; }
+}
+.mess-type{
+    line-height: 24px;
+    > p{ padding-top: 4px; margin-bottom: 15px; }
+}
+.mess-end{
+    overflow: hidden; line-height: 24px;
+    > p{ width: 145px; float: left; }
+    .mess-sub{ overflow: hidden; }
+    .mess-chec{ margin-bottom: 2px; }
+    .sub{ padding: 0 15px; height: 26px; min-width: 70px; background: url(../images/bg2.jpg) left top; @include mt3; }
+}
+@media screen and (min-width:1025px) {
+    .mess-end .sub:hover{ opacity: 0.7; }
+}
+.cta1{
+    padding: 70px 0 100px 0;
+    .fill-in-mess{ margin-top: 70px; }
+}
+.inv-c{
+    + .inv-c{ margin-top: 45px; }
+    .ti{ margin-bottom: 20px; font-size: 20px; color: $mc2; }
+    .inv-link{ margin-top: 20px; text-decoration: underline; }
+}
+.inv-name{ background: $mc1; padding: 20px 30px; font-size: 18px; color: #fff; }
+.inv-list{
+    border: 1px solid $hc1;
+    li{
+        + li{ border-top: 1px solid $hc1; }
+        &.act{ 
+            .t{ background: $hc1; } 
+            .more{ color: $mc2; }
+        }
+    }
+    .t{ padding: 20px 30px; color: $fc1; line-height: 24px; cursor: pointer; @include mt3; }
+    .more{ float: right; width: 60px; text-align: right; @include mt3; }
+    .nowti{ font-size: 16px; line-height: 24px; }
+    .b{ padding: 30px 30px 50px 30px; background: $hc3; display: none; }
+}
+.inv-link{ display: block; color: $mc2; }
+@media screen and (min-width:1025px) {
+    .inv-list li:hover .t{ background: $hc1; } 
+    .inv-list li:hover .more{ color: $mc2; }
+    .inv-link:hover{ text-decoration: none; }
+}
+.inv1{ padding: 70px 0 100px 0; }
+.comp-infor{
+    table{
+        width: 100%; background: $mc6;
+        tr:nth-child(2n) { background: #fff; }
+        td, th{ padding: 15px 20px 15px 40px; vertical-align: top; }
+        th{ font-weight: normal; }
+    }
+}
+.const-list{
+    a{ display: block; padding: 16px 40px 16px 15px; border: 1px solid $hc1; overflow: hidden; 
+        + a{ margin-top: 15px; }
+    }
+    .pdf-down-btn{ float: right; margin-left: 30px; }
+    .nowti{ line-height: 26px; }
+}
+.pdf-down-btn{
+    line-height: 26px;
+    .ico{ @include di; margin-right: 10px; width: 26px; height: 26px; background: url(../images/pdf.png) no-repeat; }
+}
+@media screen and (min-width:1025px) {
+    .const-list a:hover{ background: $hc3; }
+}
+.picto-list{
+    margin-left: -45px;
+    li{ width: 50%; float: left; margin-bottom: 35px; }
+    a{ display: block; padding: 20px; border: 1px solid $hc1; margin-left: 45px; overflow: hidden; }
+    .pic2{ float: left; width: 195px; margin-right: 30px; }
+    .txts{ overflow: hidden; }
+    .nowti{ margin-bottom: 10px; }
+}
+@media screen and (min-width:1025px) {
+    .picto-list a:hover{ box-shadow: 0 0 10px rgba(0,0,0,.2); background: $hc3; }
+}
+.inv2{ padding: 70px 0 100px-35px 0; }
+.select-year{
+    margin-bottom: 15px;
+    .year{ line-height: 40px; font-size: 24px; color: $fc1; }
+    .sele{ float: right; width: 160px; height: 40px; padding-left: 15px; background: url(../images/aw1.png) no-repeat 92% center; border: 1px solid $hc1; }
+}
+.notice-table{
+    table{ width: 100%; 
+        th{ background: $mc7; color: #fff; font-weight: normal; }
+        td, th{ padding: 15px 20px 15px 40px; vertical-align: top; }
+        tr{ background: $mc6; 
+            &:nth-child(2n){ background: #fff; }
+        }
+    }
+}
