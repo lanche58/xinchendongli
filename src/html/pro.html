@@ -155,6 +155,29 @@
                 ]
             });
         });
+        $('.pull-nav .pro-anchor').bind(_click, function(e) {
+            var hash = $(this).attr('href').split('#')[1];
+            if(hash){
+                e.preventDefault();
+                $('html,body').animate({scrollTop: $('#' + hash).offset().top - $mtoph}, 800);
+            }
+        });
+
+        $('.mtv .pro-anchor').bind(_click, function(e) {
+            var hash = $(this).attr('href').split('#')[1];
+            if(hash){
+                e.preventDefault();
+                var w = $menuBox.width();
+                $('html').removeClass('open');
+                $menuBtn.removeClass('active').stop(false,false).animate({right:0});
+                $('.menuBlack').stop().fadeOut(600);
+                $menuBox.stop(false,false).animate({right:-w+"px"},function(){
+                    $(this).hide();
+                });
+                navItem = 0;
+                $('html,body').animate({scrollTop: $('#' + hash).offset().top - $mtoph}, 800);
+            }
+        });
     })
 </script>
 </body>
