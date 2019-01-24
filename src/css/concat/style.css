@@ -10,7 +10,8 @@
   .header .logo {
     float: left;
     width: 164px;
-    margin-top: 18px; }
+    margin-top: 18px;
+    transition: none; }
   .header .nav {
     float: left;
     margin-left: 12%; }
@@ -56,8 +57,7 @@
       visibility: hidden;
       transition: 600ms; }
     .header .nav .inv .pull-nav {
-      left: auto;
-      right: -205px; }
+      left: -500px; }
   .header .lang {
     float: right;
     padding: 28px 0; }
@@ -339,6 +339,9 @@
   float: right;
   width: 46%; }
 
+.ip-lb {
+  width: 529px !important; }
+
 .ip-list {
   margin-left: -28px; }
   .ip-list li {
@@ -452,8 +455,9 @@
   padding-bottom: 100px; }
   .ab1 .pic {
     margin-bottom: 50px; }
+  .ab1 .comp-infor,
   .ab1 .subcomp-list {
-    margin-top: 70px; }
+    margin-top: 50px; }
 
 .subcomp-list li + li {
   margin-top: 5px; }

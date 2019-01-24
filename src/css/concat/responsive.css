@@ -27,6 +27,7 @@
     .his-list:before{ top: 212px; }
     .his-list .slick-arrow { top: 192px; }
     .his-list { padding: 0 50px; }
+    .ip-lb{ width: 470px !important; }
 } /* 1366 */
 @media screen and (max-width:1201px) {
     .banner .txts .ti1{ font-size: 40px; }
@@ -79,6 +80,7 @@
     .picto-list a{ margin-left: 35px; }
     .picto-list{ margin-left: -35px; }
     .picto-list .pic2 { width: 155px; margin-right: 20px; }
+    .ip-lb{ width: 100% !important; }
 
     
 } /* 1024 */
@@ -154,6 +156,7 @@
     .page-t{ padding: 2.5vw 0 12vw 0; }
     .ab-tx{ padding-left: 3.33vw; }
     .ab1 .pic { margin-bottom: 8.33vw; }
+    .ab1 .comp-infor{ margin-top: 10vw; }
     .ab1 .subcomp-list { margin-top: 12vw; }
     .subcomp-list .t{ padding-top: 3.33vw; padding-bottom: 3.33vw; }
     .subcomp-list .name{ font-size: 16px; }
