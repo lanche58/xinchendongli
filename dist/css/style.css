@@ -35,7 +35,10 @@ a{color:#666}
 .header{position:fixed;z-index:1010;top:0;left:0;right:0;background:#fff;box-shadow:0 0 5px rgba(0,0,0,.5)}
 .menuBox{position:fixed;z-index:1009;top:0;right:0;width:100%;height:100%;background:#fff;overflow:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch;display:none}
 .menuBlack{position:fixed;z-index:1008;top:0;bottom:0;right:0;left:0;background:url(../images/black5.png);display:none}
-.container{min-height:300px;overflow:hidden}
+.container{min-height:600px;overflow:hidden}
+@media screen and (max-width:1366px){
+.container{min-height:300px}
+}
 .pw{width:1150px;margin:0 auto}
 @media screen and (max-width:1366px){
 .pw{width:1000px}
@@ -1228,6 +1231,7 @@ a.pswp__share--download:hover{background:#ddd}
 .notice-table table td,.notice-table table th{padding:15px 20px 15px 40px;vertical-align:top}
 .notice-table table tr{background:#dde4e8}
 .notice-table table tr:nth-child(2n){background:#fff}
+#pro3{background-repeat:no-repeat;background-position:right bottom;background-image:url(../images/bg3.jpg)}
 @media screen and (max-width:1366px){
 .header .nav>li>a{padding:28px 15px;font-size:14px}
 .header .nav{margin-left:9%}

@@ -1763,3 +1763,8 @@
     background: #dde4e8; }
     .notice-table table tr:nth-child(2n) {
       background: #fff; }
+
+#pro3 {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url(../images/bg3.jpg); }

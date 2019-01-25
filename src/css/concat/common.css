@@ -83,8 +83,11 @@ a {
 	display: none;
 }
 .container {
-	min-height: 300px;
+	min-height: 600px;
 	overflow: hidden;
+}
+@media screen and (max-width:1366px) {
+	.container{ min-height: 300px; }
 }
 /* pw */
 .pw { width: 1150px; margin: 0 auto; }
