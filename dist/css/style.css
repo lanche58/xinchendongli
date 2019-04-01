@@ -68,7 +68,7 @@ a{color:#666}
 .now{white-space:nowrap}
 .nowti{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;line-height:1.4}
 .freeTx{overflow:hidden;position:relative;text-align:justify}
-.freeTx img{max-width:100%;vertical-align:bottom;height:auto!important}
+/*.freeTx img{max-width:100%;vertical-align:bottom;height:auto!important}*/
 .sbar{overflow:hidden;overflow-y:auto}
 .sbar::-webkit-scrollbar{width:6px;background:#ccc}
 .sbar::-webkit-scrollbar-thumb{background:#0891a3}
@@ -958,7 +958,10 @@ a.pswp__share--download:hover{background:#ddd}
 .job-mess-list li:hover .t{background:#ab4133}
 }
 .jb1{padding:70px 0 100px 0}
-.recruit-list li:not(:first-child){border-bottom:1px solid #666}
+.jbs{ min-height:45.7vh;}
+.recruit-list li:not(:first-child) {
+    border-bottom: 1px solid #666
+}
 .recruit-list li:first-child .t{background:#666;font-size:16px;font-weight:700;color:#fff;cursor:default}
 .recruit-list li.act .t{color:#fff;background:#ab4133}
 .recruit-list li.act .job-plus,.recruit-list li.act .job-plus:before{background:#fff}
@@ -980,6 +983,7 @@ a.pswp__share--download:hover{background:#ddd}
 .recruit-list li:not(:first-child):hover .job-plus,.recruit-list li:not(:first-child):hover .job-plus:before{background:#fff}
 }
 #pro1{background:#f2f2f2}
+#pro4{background:#f2f2f2}
 .pro-ti{font-style:italic;color:#ab4133}
 .pro-ti span{display:inline-block;vertical-align:bottom}
 .pro-ti .ch{margin-right:15px;font-weight:700;line-height:1.1;font-size:30px}
@@ -1535,3 +1539,6 @@ a.pswp__share--download:hover{background:#ddd}
 .inv2{padding-bottom:45px}
 .notice-table table td:nth-child(1),.notice-table table th:nth-child(1){width:100px}
 }
+
+/* 2019/4/1 */
+.freeTx img{ vertical-align: bottom; max-width: 100% !important; height: auto !important; }
