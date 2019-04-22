@@ -23,9 +23,9 @@
     .honor-list .ma { margin-left: 40px; }
     .honor-list{ margin-left: -40px; }
     .his-list .pic{ height: 96px; }
-    .his-list .item1 { padding-top: 212px; }
-    .his-list:before{ top: 212px; }
-    .his-list .slick-arrow { top: 192px; }
+    .his-list .item1 { padding-top: 260px; }
+    .his-list:before{ top: 260px; }
+    .his-list .slick-arrow { top: 240px; }
     .his-list { padding: 0 50px; }
     .ip-lb{ width: 470px !important; }
 } /* 1366 */
@@ -269,8 +269,6 @@
     .nd-t .ti{ font-size: 20px; }
     .nd-t .in-date { font-size: 12px; }
     .nd-t .in-date i { font-size: 12px; }
-    .share a{ font-size: 12px !important; }
-    .share a:after { font-size: 14px; }
     .nd-t .nd-mess { margin-top: 5px; }
     .nd-back .nex, .nd-back .pre{ float: none; }
     .nd-back .nowti{ max-width: none; line-height: 2.5; }
@@ -317,7 +315,9 @@
     .picto-list li{ margin-bottom: 25px; }
     .inv2{ padding-bottom: 45px; }
     .notice-table table td:nth-child(1), .notice-table table th:nth-child(1){ width: 100px; }
-
+    .share .icon{ font-size: 12px; padding: 0 0 10px; }
+    .share .icon:after{ font-size: 14px; }
+    .share .b{ top: 100%; left: 50%; margin-left: -55px; }
     
     
     

@@ -312,7 +312,7 @@
     .ti{ font-size: 24px; font-weight: bold; color: $fc1; }
     .nd-mess{
         margin-top: 10px;
-        li{ vertical-align: middle; 
+        li{ vertical-align: top; 
             + li{ margin-left: 20px; }
         }
     }
@@ -321,9 +321,60 @@
     }
 }
 .share{
-    a{ background: none !important; font-size: 14px !important; opacity: 1 !important; color: $fc2 !important; 
+    line-height: 20px;
+    position: relative;
+    text-align: left;
+    .icon{
+        display: block;
+        padding-right: 10px;
+        font-size: 14px; 
+        @include mt3; 
         &:before{ content: ""; }
         &:after{ content: "\e60e"; font-size: 16px; }
+    }
+    .b{
+        position: absolute;
+        left: 100%;
+        top: 0;
+        z-index: 99;
+        width: 110px;
+        background: #fff;
+        box-shadow: 0 0 3px rgba(0,0,0,.1);
+        padding: 10px 0 10px 10px;
+        transform: translateY(15%);
+        @include hide;
+        @include mt4;
+        a{
+            display: block;
+            height: auto !important;
+            float: none !important;
+            line-height: 32px !important;
+            padding-left: 36px !important;
+            font-size: 14px !important;
+            opacity: 1 !important;
+            background: url(../images/share.png) no-repeat !important;
+        }
+        .sina{
+            background-position: left -32px !important;
+        }
+        .weixin2{
+            background-position: left -32px * 2 !important;
+        }
+        .qq1{
+            background-position: left -32px * 3 !important;
+        }
+        .qq2{
+            background-position: left -32px * 4 !important;
+        }
+    }
+    &.show{
+        .icon{
+            color: $mc2;
+        }
+        .b{
+            transform: none;
+            @include show;
+        }
     }
 }
 @media screen and (min-width:1025px) {
@@ -575,13 +626,13 @@
 }
 .his-list{
     padding: 0 55px;
-    &:before{ @include ba; top: 234px; left: 0; right: 0; height: 2px; background: $hc1; }
+    &:before{ @include ba; top: 234px + 24px * 2; left: 0; right: 0; height: 2px; background: $hc1; }
     .his-cont{ position: relative; margin-left: 60px; }
     .date{ height: 34px; line-height: 34px; font-size: 34px; font-weight: bold; @include mt3; }
-    .tx{ margin-top: 8px; color: $fc3; height: 24px; }
+    .tx{ margin-top: 8px; color: $fc3; height: 72px; }
     .pic{ margin-top: 8px; height: 118px; border: 1px solid $hc1; }
     .item1{
-        padding-top: 234px;
+        padding-top: 234px + 24px * 2;
         .his-cont{ padding-top: 70px; }
         .dot1{ top: -5px; 
             &:before{ top: 100%; margin-top: 2px; }
@@ -605,7 +656,7 @@
     .dot2{ @include c(6px); right: 100%; margin-right: 15px; 
         &:before{ top: 2px; right: 100%; width: 34px; height: 2px; }
     }
-    .slick-arrow{ top: 214px; margin: 0; }
+    .slick-arrow{ top: 214px + 24px * 2; margin: 0; }
 }
 .his-arrow{
     .slick-arrow{ border: 1px solid $hc1; border-radius: 100%; background: #fff; font-size: 16px; line-height: 40px; }

@@ -68,7 +68,7 @@ a{color:#666}
 .now{white-space:nowrap}
 .nowti{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;line-height:1.4}
 .freeTx{overflow:hidden;position:relative;text-align:justify}
-/*.freeTx img{max-width:100%;vertical-align:bottom;height:auto!important}*/
+.freeTx img{max-width:100%;vertical-align:bottom;height:auto!important}
 .sbar{overflow:hidden;overflow-y:auto}
 .sbar::-webkit-scrollbar{width:6px;background:#ccc}
 .sbar::-webkit-scrollbar-thumb{background:#0891a3}
@@ -922,13 +922,22 @@ a.pswp__share--download:hover{background:#ddd}
 .nd-t{background:#f2f2f2;padding:80px 0 70px 0}
 .nd-t .ti{font-size:24px;font-weight:700;color:#333}
 .nd-t .nd-mess{margin-top:10px}
-.nd-t .nd-mess li{vertical-align:middle}
+.nd-t .nd-mess li{vertical-align:top}
 .nd-t .nd-mess li+li{margin-left:20px}
 .nd-t .in-date{font-size:14px}
 .nd-t .in-date i{font-size:14px}
-.share a{background:0 0!important;font-size:14px!important;opacity:1!important;color:#666!important}
-.share a:before{content:""}
-.share a:after{content:"\e60e";font-size:16px}
+.share{line-height:20px;position:relative;text-align:left}
+.share .icon{display:block;padding-right:10px;font-size:14px;-webkit-transition:.3s;-moz-transition:.3s;transition:.3s}
+.share .icon:before{content:""}
+.share .icon:after{content:"\e60e";font-size:16px}
+.share .b{position:absolute;left:100%;top:0;z-index:99;width:110px;background:#fff;box-shadow:0 0 3px rgba(0,0,0,.1);padding:10px 0 10px 10px;-webkit-transform:translateY(15%);-moz-transform:translateY(15%);-ms-transform:translateY(15%);transform:translateY(15%);opacity:0;visibility:hidden;-webkit-transition:.4s;-moz-transition:.4s;transition:.4s}
+.share .b a{display:block;height:auto!important;float:none!important;line-height:32px!important;padding-left:36px!important;font-size:14px!important;opacity:1!important;background:url(../images/share.png) no-repeat!important}
+.share .b .sina{background-position:left -32px!important}
+.share .b .weixin2{background-position:left -64px!important}
+.share .b .qq1{background-position:left -96px!important}
+.share .b .qq2{background-position:left -128px!important}
+.share.show .icon{color:#ab4133}
+.share.show .b{-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;opacity:1;visibility:visible}
 @media screen and (min-width:1025px){
 .share a:hover{color:#ab4133!important}
 }
@@ -958,10 +967,7 @@ a.pswp__share--download:hover{background:#ddd}
 .job-mess-list li:hover .t{background:#ab4133}
 }
 .jb1{padding:70px 0 100px 0}
-.jbs{ min-height:45.7vh;}
-.recruit-list li:not(:first-child) {
-    border-bottom: 1px solid #666
-}
+.recruit-list li:not(:first-child){border-bottom:1px solid #666}
 .recruit-list li:first-child .t{background:#666;font-size:16px;font-weight:700;color:#fff;cursor:default}
 .recruit-list li.act .t{color:#fff;background:#ab4133}
 .recruit-list li.act .job-plus,.recruit-list li.act .job-plus:before{background:#fff}
@@ -983,7 +989,6 @@ a.pswp__share--download:hover{background:#ddd}
 .recruit-list li:not(:first-child):hover .job-plus,.recruit-list li:not(:first-child):hover .job-plus:before{background:#fff}
 }
 #pro1{background:#f2f2f2}
-#pro4{background:#f2f2f2}
 .pro-ti{font-style:italic;color:#ab4133}
 .pro-ti span{display:inline-block;vertical-align:bottom}
 .pro-ti .ch{margin-right:15px;font-weight:700;line-height:1.1;font-size:30px}
@@ -1096,12 +1101,12 @@ a.pswp__share--download:hover{background:#ddd}
 .ab3{padding:70px 0 65px 0}
 .ab3 .honor-list{margin-top:70px}
 .his-list{padding:0 55px}
-.his-list:before{content:"";position:absolute;top:234px;left:0;right:0;height:2px;background:#ccc}
+.his-list:before{content:"";position:absolute;top:282px;left:0;right:0;height:2px;background:#ccc}
 .his-list .his-cont{position:relative;margin-left:60px}
 .his-list .date{height:34px;line-height:34px;font-size:34px;font-weight:700;-webkit-transition:.3s;-moz-transition:.3s;transition:.3s}
-.his-list .tx{margin-top:8px;color:#999;height:24px}
+.his-list .tx{margin-top:8px;color:#999;height:72px}
 .his-list .pic{margin-top:8px;height:118px;border:1px solid #ccc}
-.his-list .item1{padding-top:234px}
+.his-list .item1{padding-top:282px}
 .his-list .item1 .his-cont{padding-top:70px}
 .his-list .item1 .dot1{top:-5px}
 .his-list .item1 .dot1:before{top:100%;margin-top:2px}
@@ -1117,7 +1122,7 @@ a.pswp__share--download:hover{background:#ddd}
 .his-list .dot:before{content:"";position:absolute}
 .his-list .dot2{width:6px;height:6px;border-radius:100%;right:100%;margin-right:15px}
 .his-list .dot2:before{top:2px;right:100%;width:34px;height:2px}
-.his-list .slick-arrow{top:214px;margin:0}
+.his-list .slick-arrow{top:262px;margin:0}
 .his-arrow .slick-arrow{border:1px solid #ccc;border-radius:100%;background:#fff;font-size:16px;line-height:40px}
 @media screen and (min-width:1025px){
 .his-arrow .slick-arrow:hover{background-color:#ab4133;border-color:#ab4133;color:#fff}
@@ -1260,9 +1265,9 @@ a.pswp__share--download:hover{background:#ddd}
 .honor-list .ma{margin-left:40px}
 .honor-list{margin-left:-40px}
 .his-list .pic{height:96px}
-.his-list .item1{padding-top:212px}
-.his-list:before{top:212px}
-.his-list .slick-arrow{top:192px}
+.his-list .item1{padding-top:260px}
+.his-list:before{top:260px}
+.his-list .slick-arrow{top:240px}
 .his-list{padding:0 50px}
 .ip-lb{width:470px!important}
 }
@@ -1490,8 +1495,6 @@ a.pswp__share--download:hover{background:#ddd}
 .nd-t .ti{font-size:20px}
 .nd-t .in-date{font-size:12px}
 .nd-t .in-date i{font-size:12px}
-.share a{font-size:12px!important}
-.share a:after{font-size:14px}
 .nd-t .nd-mess{margin-top:5px}
 .nd-back .nex,.nd-back .pre{float:none}
 .nd-back .nowti{max-width:none;line-height:2.5}
@@ -1538,7 +1541,7 @@ a.pswp__share--download:hover{background:#ddd}
 .picto-list li{margin-bottom:25px}
 .inv2{padding-bottom:45px}
 .notice-table table td:nth-child(1),.notice-table table th:nth-child(1){width:100px}
+.share .icon{font-size:12px;padding:0 0 10px}
+.share .icon:after{font-size:14px}
+.share .b{top:100%;left:50%;margin-left:-55px}
 }
-
-/* 2019/4/1 */
-.freeTx img{ vertical-align: bottom; max-width: 100% !important; height: auto !important; }
