@@ -919,7 +919,8 @@ a.pswp__share--download:hover{background:#ddd}
 @media screen and (min-width:1025px){
 .pager a:hover{color:#fff;background:#ab4133;border-color:#ab4133}
 }
-.nd-t{background:#f2f2f2;padding:80px 0 70px 0}
+.nd-t{background:#f2f2f2;padding:10px 0 70px 0}
+.nd-t .bread-nav{ margin-bottom: 80px; }
 .nd-t .ti{font-size:24px;font-weight:700;color:#333}
 .nd-t .nd-mess{margin-top:10px}
 .nd-t .nd-mess li{vertical-align:top}
@@ -988,7 +989,7 @@ a.pswp__share--download:hover{background:#ddd}
 .recruit-list li:not(:first-child):hover .t{background:#ab4133;color:#fff}
 .recruit-list li:not(:first-child):hover .job-plus,.recruit-list li:not(:first-child):hover .job-plus:before{background:#fff}
 }
-#pro1{background:#f2f2f2}
+#pro2{background:#f2f2f2}
 .pro-ti{font-style:italic;color:#ab4133}
 .pro-ti span{display:inline-block;vertical-align:bottom}
 .pro-ti .ch{margin-right:15px;font-weight:700;line-height:1.1;font-size:30px}
@@ -1039,7 +1040,7 @@ a.pswp__share--download:hover{background:#ddd}
 @media screen and (min-width:1025px){
 .pro-search .icon:hover{background:#999}
 }
-.pro-base-mess{background:#f2f2f2;padding:70px 0 100px 0}
+.pro-base-mess{padding:70px 0 0 0}
 .pro-base-mess .pro-mess-list{margin-top:60px}
 .pro-base-mess .pro-ti{margin-bottom:30px}
 .pro-mess-list li{line-height:1}
@@ -1402,7 +1403,8 @@ a.pswp__share--download:hover{background:#ddd}
 .ab1{padding-bottom:70px}
 .ab2,.jb1,.nw1{padding:12vw 0 70px 0}
 .nw1 .news-list,.nw1 .pager{margin-top:10vw}
-.nd-t{padding:14vw 0 12vw 0}
+.nd-t{padding-bottom: 12vw;}
+.nd-t .bread-nav{ margin-bottom: 14vw; }
 .nd-b{padding:12vw 0 70px 0}
 .nd-b .nd-back{margin-top:12vw}
 .nd-back{padding-top:8.33vw}
@@ -1416,6 +1418,7 @@ a.pswp__share--download:hover{background:#ddd}
 .recruit-list .t .r1 .nowti{padding-left:0}
 .recruit-list .t .job-plus{right:5%}
 .pro-base-mess,.pro-tx,.pro1{padding:12vw 0 14vw 0}
+.pro-base-mess{ padding-bottom: 0; }
 .pro-search input,.pro-search select{width:49%;margin-right:2%}
 .pro-search select{margin-right:0}
 .pro-search .icon{margin-top:2%}
@@ -1545,3 +1548,7 @@ a.pswp__share--download:hover{background:#ddd}
 .share .icon:after{font-size:14px}
 .share .b{top:100%;left:50%;margin-left:-55px}
 }
+
+.pd-t{ padding: 10px 0 30px; background: #f2f2f2; }
+.pd-t .pro-search{ margin-top: 25px; background: none; padding: 0 !important; }
+.pd-t .page-ti{ margin-top: 30px; }
