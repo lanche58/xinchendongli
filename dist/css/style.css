@@ -1033,7 +1033,7 @@ a.pswp__share--download:hover{background:#ddd}
 .pro-search input,.pro-search select{padding-left:10px;width:190px;margin-right:8px;background-color:#fff}
 .pro-search select{background-image:url(../images/aw1.png);background-repeat:no-repeat;background-position:95% center}
 .pro-search input{-webkit-transition:.3s;-moz-transition:.3s;transition:.3s}
-.pro-search input:focus{background:#f2f2f2}
+/* .pro-search input:focus{background:#f2f2f2} */
 .pro-search .icon{width:74px;background:#ab4133;text-align:center;line-height:34px;font-size:14px;font-weight:700;color:#fff}
 .pro-search .icon:before{content:""}
 .pro-search .icon:after{content:"\e643";font-size:16px;font-weight:400}
